@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #127262;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(0, 59, 59);
+    text-align: center;
+}
+
+nav {
+    background-color: #b1b1b1;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: #333;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section {
+    background-color:#127262e3;
+    padding: 10px;
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+   margin-left: 5%;
+    
+  }
+
+  .contact-icons img {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+
+  .contact-icons p {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+
+  }
+
+  .card{
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 35px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px black;
+  }
+
+  .titulo{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grupo{
+    position: relative;
+  }
+
+  .form .grupo label{
+    font-size: 14px;
+    color: #127262e3;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all 1s ease;
+  }
+
+  .form .grupo input,
+  .form .grupo textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+
+ 
+  .form .grupo input:focus,
+  .form .grupo textarea:focus{
+    border-color: #127262;
+  }
+
+  .form .grupo textarea{
+    resize: none;
+    height: 100px;
+  }
+
+  .form button{
+    background-color: #3366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .form button:hover{
+    background-color: #127262;
+  }
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
