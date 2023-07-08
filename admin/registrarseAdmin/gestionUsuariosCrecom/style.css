@@ -1,0 +1,792 @@
+*{
+
+padding: 0;
+margin: 0;
+
+}
+
+body {
+
+    font-family: arial;
+}
+
+
+header {
+    background-color: #464545;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#menuPerfilFuncionarios{
+
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 77%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+visibility: hidden;
+
+    
+}
+
+
+#menuPerfilFuncionarios.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilFuncionarios img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilFuncionarios h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+
+}
+
+#menuPerfilFuncionarios button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilFuncionarios button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionFuncionarios {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionFuncionarios a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+#menuPerfilBorrarFuncionario{
+
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 77%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+visibility: hidden;
+
+    
+}
+
+
+#menuPerfilBorrarFuncionario.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilBorrarFuncionario img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilBorrarFuncionario h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+
+}
+
+#menuPerfilBorrarFuncionario button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilBorrarFuncionario button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionBorrarFuncionario {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionBorrarFuncionario a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+
+#menuPerfilAgregarFuncionario {
+
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 77%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+visibility: hidden;
+
+    
+}
+
+
+#menuPerfilAgregarFuncionario.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilAgregarFuncionario img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilAgregarFuncionario h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+
+}
+
+#menuPerfilAgregarFuncionario button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilAgregarFuncionario button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionAgregarFuncionario {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionAgregarFuncionario a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+#menuPerfilModificarFuncionario {
+
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 77%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+visibility: hidden;
+
+    
+}
+
+
+#menuPerfilModificarFuncionario.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilModificarFuncionario img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilModificarFuncionario h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+
+}
+
+#menuPerfilModificarFuncionario button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilModificarFuncionario button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionModificarFuncionario {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionModificarFuncionario a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+.userImg:hover{
+
+transform: scale(1.1);
+
+}
+
+.miPerfil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+header h1 {
+
+    margin-left: 0%;
+}
+
+
+
+table {
+
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    border: 1px solid gray;
+    width: 540px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 2rem;
+
+}
+
+#headTable {
+
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(26, 165, 165);
+    height: 30px;
+
+}
+
+td {
+
+    border-right: 1px solid grey;
+    height: 45px;
+}
+
+tr:hover {
+
+    background-color: rgb(236, 236, 236);
+}
+
+.msjEliminar {
+
+    background-color: white;
+    width: 300px;
+    border-radius: 6px;
+   
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    height: 160px;
+    font-size: 16px;
+    margin-top: 0%;
+    font-weight: bold;
+    font-family: arial;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+}
+
+.msj {
+
+    padding-top: 20px;
+
+}
+
+
+#eliminar {
+
+    background: rgb(255, 12, 12);
+    border-radius: 5px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 30px;
+    margin-top: -8px;
+
+}
+
+#eliminar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#eliminar:hover {
+
+    background-color: rgb(185, 4, 4);
+}
+
+
+
+#modificar {
+
+
+    padding-top: 7px;
+    width: 80px;
+    height: 24px;
+    background-color: rgb(14, 241, 14);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 135px;
+    margin-top: -31px;
+}
+
+#modificar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#modificar:hover {
+
+    background-color: rgb(4, 165, 4);
+}
+
+#masInfo {
+
+    padding-top: 7px;
+    width: 80px;
+    height: 24px;
+    background-color: rgb(14, 93, 241);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 244px;
+    margin-top: -31px;
+
+}
+
+#masInfo a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+
+input {
+
+    outline: none;
+    height: 20px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(3, 3, 3);
+    margin-top: 4px;
+    color: black;
+}
+
+input:hover {
+
+    border-bottom: 1px solid rgb(24, 243, 24);
+}
+
+
+h2 {
+
+    margin-top: -3%;
+
+}
+
+#boton {
+
+    width: 130px;
+    height: 25px;
+    background-color: rgb(77, 77, 77);
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    margin-top: 6%;
+    border: none;
+    border-radius: 10px;
+}
+
+#boton:hover {
+
+    background-color: rgb(31, 31, 31);
+}
+
+.msjActualizacion {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 140px;
+    
+    box-shadow:
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 35px;
+}
+
+
+
+.iconoMsj {
+
+    margin-top: -7%;
+
+
+}
+
+
+
+
+.volverCorrecto {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(23, 214, 81);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 30px;
+    border: none;
+
+}
+
+.volverCorrecto:hover {
+
+    background-color: rgb(20, 175, 66);
+}
+
+
+.volverError {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(231, 32, 32);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    border: none;
+    height: 30px;
+
+}
+
+.volverError:hover {
+
+    background-color: rgb(170, 17, 17);
+}
+
+
+#containerTable {
+
+
+    display: table;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px gray;
+    width: 630px;
+    margin-top: -8%;
+    border-radius: 10px;
+    height: 100px;
+    border: 1px solid gray;
+
+}
+
+
+
+#nomUsuario {
+
+    margin-left: 0%;
+    font-weight: bold;
+
+
+}
+
+#agregar {
+
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    width: 190px;
+    height: 30px;
+    background: rgb(76, 76, 247);
+    color: white;
+    font-weight: bold;
+
+}
+
+#agregar:hover {
+
+    background-color: rgb(3, 3, 129);
+
+}
+
+
+
+
+#contrasenia{
+display: inline-block;
+margin-right: -10px;
+
+}
+
+#estadoPassword{
+
+   margin-right:-14px; 
+}
+
+#formModificar {
+
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+   margin-top: -8%;
+    margin-left: 30%;
+    height: 460px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+#formModificar input {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 4px;
+    color: black;
+    display: inline;
+    margin-left: 3px;
+    align-items: center;
+
+}
+
+
+
+#formModificar input:hover {
+
+    border-bottom: 1px solid rgb(47, 238, 63);
+
+}
+
+#formModificar input[type=submit] {
+
+    background-color: rgb(24, 243, 108);
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#formModificar input[type=submit]:hover {
+
+   background-color: rgb(29, 160, 29); 
+}
+
+
+#formAgregar {
+
+    color: black;
+    background-color: white;
+    height: 460px;
+    width: 500px;
+    box-shadow:
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: -8%;
+    border-radius: 10px;
+
+}
+
+#formAgregar input {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 4px;
+    color: black;
+    display: inline;
+    margin-left: 3px;
+    align-items: center;
+
+}
+
+
+
+#formAgregar input[type=submit] {
+
+    background-color: rgb(24, 93, 243);
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#formAgregar input:hover {
+
+    border-bottom: 1px solid rgb(24, 93, 243);
+}
