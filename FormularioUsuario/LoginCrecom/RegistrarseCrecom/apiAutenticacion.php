@@ -98,7 +98,7 @@ case "registrarse":
 
                 $jsonDatosCodificado=urlencode($jsonDatos);
 
-                header("Location: usuarioRegistradoCrecom?datos=" . $jsonDatosCodificado);
+                header("Location: usuarioRegistradoCrecom.php?datos=" . $jsonDatosCodificado);
           
         }
     }
