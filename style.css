@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #127262;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 59, 59);
+  text-align: center;
+}
+
+nav {
+  background-color: #b1b1b1;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 5px;
+  color: #333;
+}
+
+/* --------------------------------------------Seccion de contacto------------------------------------------*/
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-section {
+  background-color: #127262e3;
+  padding: 20px;
+  width: 350px;
+  height: 430px;
+  margin-right: 20px;
+}
+
+.contact-icons {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.contact-icons img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  /* Agrega transiciones suaves */
+}
+
+.contact-icons img:hover {
+  transform: scale(1.4);
+  background-color: #ffffffe7;
+}
+
+/* -------------------------------------------FORMULARIO --------------------------------------*/
+.card {
+  box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  width: 890px;
+  height: 420px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#enviar {
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px grey;
+  border: none;
+  width: 220px;
+  height: 30px;
+  background-color: #127262e3;
+}
+
+#enviar:hover {
+  background-color: #b4b4b4;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  border: 1px solid #127262;
+  border-radius: 5px;
+  padding: 7px;
+  width: 80%;
+  margin-bottom: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+form input:hover {
+  border: #127262e3 1px solid;
+}
+
+form input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #30bdcf;
+}
+
+form textarea {
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: #fff;
+}
+
+/* -------------------------------------------Consulta-------------------------------------*/
+
+.msjConsultaEnviada {
+  margin-top: -13%;
+  text-align: center;
+  color: rgb(26, 224, 26);
+}
+
+.volverError {
+  margin-top: 13px;
+  border-radius: 4px;
+  background-color: rgb(231, 32, 32);
+  color: white;
+  text-decoration: none;
+  width: 140px;
+  border: none;
+  height: 30px;
+}
+
+.volverError:hover {
+  background-color: rgb(170, 17, 17);
+}
+
+.msjEliminar {
+  margin: auto;
+  border-radius: 6px;
+  width: 330px;
+  height: 140px;
+
+  box-shadow: 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+  font-family: arial;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0%;
+  padding-top: 35px;
+}
+
+.msj {
+  padding-top: 20px;
+}
+
+/* -------------------------------------------Footer --------------------------------------*/
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
