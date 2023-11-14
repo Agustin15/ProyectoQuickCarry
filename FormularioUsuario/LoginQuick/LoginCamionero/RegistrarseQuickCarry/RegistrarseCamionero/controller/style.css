@@ -1,0 +1,1017 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: #464545;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.headerFormChofer {
+    background-color: #127262;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerFormChofer h1 {
+    font-size: 40px;
+    margin: auto;
+
+}
+
+/*--------------------------------------------------------------------Menu----------------------------------------------------------*/
+nav {
+    background-color: #b1b1b1;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: #333;
+}
+
+
+.userImg:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+header h1 {
+
+    margin-left: 0%;
+}
+
+header h2 {
+
+    margin-left: 39%;
+    font-size: 30px;
+}
+
+
+
+/*estilo de los formularios del login de camionero*/
+
+
+.imgFormReg {
+
+    margin-top: -434px;
+    margin-left: 463px;
+    transition: 0.3s;
+
+    color: white;
+}
+
+.imgFormReg img {
+
+    width: 470px;
+    height: 475px;
+    padding-top: -10px;
+}
+
+.imgFormReg h4 {
+
+    margin-top: -62%;
+    font-size: 33px;
+    font-weight: bold;
+
+
+}
+
+.imgFormReg p {
+
+    margin-top: 10px;
+}
+
+
+
+
+
+.containerForm {
+
+
+    margin-left: -50%;
+    margin-top: -30px;
+
+
+}
+
+
+
+#formRegistroCamionero {
+
+    text-align: center;
+    margin: auto;
+
+    background-color: white;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+    width: 930px;
+    height: 470px;
+    border-radius: 7px;
+    margin-top: 8%;
+
+}
+
+#formRegistroCamionero input {
+
+    margin-top: 30px;
+    display: inline-block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid;
+    outline: none;
+    transition: 0.2s;
+    height: 30px;
+
+
+}
+
+#formRegistroCamionero input:hover {
+
+
+    border-bottom: 1px solid rgb(23, 196, 219);
+
+
+}
+
+
+
+
+#botonRegistrarse {
+
+    width: 210px;
+    height: 30px;
+    background-color: rgb(23, 196, 219);
+    color: white;
+    cursor: pointer;
+    margin-left: 0%;
+
+
+}
+
+#botonRegistrarse:hover {
+
+    background-color: rgb(19, 160, 179);
+
+}
+
+
+
+#estadoPasswordReg {
+
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.inputCol1 {
+
+    margin-right: 30px;
+}
+
+
+#inputCedula {
+
+    margin-right: 15%;
+
+}
+
+
+.containerSelect {
+
+    margin-left: 14%;
+    margin-top: -36px;
+}
+
+.containerSelect label {
+
+    margin-top: -10%;
+    color: #b1b1b1;
+}
+
+select {
+
+
+    width: 180px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+
+}
+
+
+#eliminar {
+
+    background: rgb(255, 12, 12);
+    border-radius: 5px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 30px;
+    margin-top: -8px;
+
+}
+
+#eliminar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#eliminar:hover {
+
+    background-color: rgb(185, 4, 4);
+}
+
+
+
+
+.iconoMsj {
+
+    margin-top: -7%;
+
+
+}
+
+
+
+
+
+.registrado {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 200px;
+    font-size: 23px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12%;
+    padding-top: 35px;
+}
+
+.registrado a {
+
+    padding-top: 30px;
+
+}
+
+.botonRegistrado {
+
+    margin-top: 36px;
+    border-radius: 4px;
+    background-color: rgba(22, 223, 22, 0.76);
+    width: 130px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+
+}
+
+.botonRegistrado:hover {
+
+    background-color: green;
+
+}
+
+
+#avisoCampoRegistrarse {
+
+
+    margin-top: 21%;
+    font-size: 16px;
+    margin-right: 50%;
+    color: red;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+#formLoginCamionero {
+
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    border: none;
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    width: 664px;
+    height: 390px;
+    border-radius: 7px;
+    text-align: center;
+
+
+}
+
+
+.inputs h1 {
+
+    font-size: 23px;
+    margin-right: 340px;
+
+}
+
+
+.inputs input {
+
+
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    height: 30px;
+    padding-left: 40px;
+    margin-right: 50%;
+    width: 180px;
+    background: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+
+}
+
+.inputs input:hover {
+
+    border-bottom: 1px solid rgb(23, 196, 219);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.inputs input::placeholder {
+
+    color: rgb(0, 0, 0);
+}
+
+
+
+.inputs img {
+
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 6px;
+
+}
+
+#botonEnviar {
+
+    width: 100px;
+    height: 30px;
+    background-color: rgb(23, 196, 219);
+    color: white;
+    margin-top: 76px;
+    margin-right: 350px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+
+
+}
+
+#botonEnviar:hover {
+
+    background-color: rgb(39, 128, 163);
+
+}
+
+
+
+.estadoPassword {
+
+
+    margin-left: -14%;
+    margin-top: -40px;
+    cursor: pointer;
+
+}
+
+
+#avisoCampoLogin {
+
+
+    margin-top: 17%;
+    font-size: 15px;
+    margin-left: -50%;
+
+    color: red;
+    font-weight: bold;
+
+
+
+}
+
+
+
+.linkCamionero {
+
+    margin-top: 33px;
+    margin-right: 50%;
+}
+
+.linkCamioneroReg {
+
+    margin-top: 33px;
+    margin-right: 0%;
+}
+
+.imgForm {
+
+    margin-top: -247px;
+    margin-left: 333px;
+    transition: 0.3s;
+
+    color: white;
+}
+
+.imgForm img {
+
+    width: 333px;
+    height: 394px;
+    padding-top: -10px;
+}
+
+.imgForm h4 {
+
+    margin-top: -84%;
+    font-size: 33px;
+    font-weight: bold;
+
+
+}
+
+.imgForm p {
+
+    margin-top: 10px;
+}
+
+
+
+.verPass {
+
+    margin-top: -29px;
+    margin-left: 410px;
+}
+
+
+
+#menuPerfil {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -2%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+}
+
+
+
+#menuPerfil.active {
+
+    visibility: visible;
+
+}
+
+
+
+
+
+
+#menuPerfil:hover {
+
+    cursor: pointer;
+}
+
+#menuPerfil img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfil h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+
+}
+
+.puesto {
+
+    margin-left: 90px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#menuPerfil button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfil button:hover {
+
+    background-color: #239167;
+}
+
+
+.cerrarSesion {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesion a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+#formEditarPerfil {
+
+
+    width: 570px;
+    height: 480px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2%;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    padding-top: 2%;
+}
+
+
+
+#formEditarPerfil input {
+
+    outline: none;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+
+
+
+.tituloEditar {
+
+    margin-top: -5%;
+
+    text-align: center;
+    height: 50px;
+
+}
+
+.tituloEditar h1 {
+
+
+
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+
+.containerInputsEditar {
+
+
+    margin-top: 8%;
+
+}
+
+.lblUsuario {
+
+    margin-right: 33%;
+}
+
+.lblNombreEditar {
+
+
+    margin-right: 34%;
+
+
+}
+
+
+
+
+
+
+.inputIzqEditar {
+
+
+    margin-top: 27px;
+    margin-right: 40%;
+
+}
+
+
+.inputIzqEditar input {
+
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+.inputDerEditar {
+
+
+    margin-top: -295px;
+    margin-left: 40%;
+
+}
+
+
+.inputDerEditar input {
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+
+.inputDerEditar input:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+.inputIzqEditar input:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+
+.inputUsuarioEditar {
+
+    color: #b1b1b1;
+
+
+}
+
+
+.inputUsuarioEditar:focus {
+
+    border: 2px solid #2bc48a;
+    color: black;
+
+}
+
+.guardarCambios {
+
+    background-color: #2bc48a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 130px;
+    margin-left: 60%;
+
+}
+
+.guardarCambios:hover {
+
+    background-color: #29a072;
+
+}
+
+
+.containerUsuario {
+
+
+    margin-top: -26%;
+    margin-left: 23%;
+    padding-top: 30px;
+    text-align: center;
+    width: 200px;
+    height: 134px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+
+
+}
+
+.containerUsuario a {
+
+    font-weight: bold;
+}
+
+.containerUsuario img {
+
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    border-radius: 30px;
+
+}
+
+.avisoDatosExistentes {
+
+    color: red;
+    margin-left: 37%;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 21%;
+}
+
+
+.containerPedido {
+
+
+    margin-left: 26%;
+    margin-top: -8%;
+    width: 650px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    border-radius: 10px;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+
+}
+
+.containerPedido h1 {
+
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.containerPedido img {
+
+    margin-left: 64px;
+}
+
+.tablePedidos {
+
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 620px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    border-radius: 3px;
+
+
+}
+
+.tablePedidos td,
+th {
+
+    border-right: 1px solid rgb(212, 212, 212);
+
+}
+
+
+.tablePedidos tr {
+
+
+    height: 40px;
+}
+
+.tablePedidos tr:hover {
+
+    background-color: rgb(236, 236, 236);
+}
+
+.headerTablePedidos {
+
+    background-color: rgb(55, 197, 233);
+
+}
+
+.buttonAceptar {
+
+    width: 60px;
+    height: 30px;
+    border: none;
+    background-color: #0efa36;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(97, 97, 97);
+}
+
+.buttonAceptar img {
+
+    margin-left: 0px;
+}
+
+.buttonAceptar:hover {
+
+    background-color: #22c53d;
+}
+
+@media (max-width: 600px) {
+
+    #formLoginCamionero {
+
+        height: 270px;
+        width: 42%;
+        font-size: 10px;
+        margin-top: 12%;
+        margin-right: 47%;
+    }
+
+
+    .inputs img {
+
+        width: 15px;
+        margin-top: 10px;
+    }
+
+    #formLoginCamionero input[type="submit"] {
+
+
+        margin: auto;
+        margin-top: 37%;
+        width: 90px;
+        height: 30px;
+    }
+
+    .inputs input {
+
+        width: 60px;
+        font-size: 10px;
+        margin: auto;
+        padding-left: 30px;
+    }
+
+
+    .inputs h1 {
+
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .estadoPassword {
+
+        margin-left: 62%;
+        margin-top: -37px;
+    }
+
+    .estadoPassword img {
+
+        width: 14px;
+    }
+
+    .imgForm {
+
+        margin-left: 100%;
+        margin-top: -192px;
+        text-align: center;
+    }
+
+    .imgForm img {
+
+        width: 144px;
+        height: 275px;
+    }
+
+
+    .imgForm h4 {
+
+        margin-top: -192px;
+        font-size: 16px;
+        margin-left: 20px;
+        font-weight: bold;
+        width: 100px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .imgForm p {
+
+        margin-top: 22px;
+        color: rgb(255, 255, 255);
+        width: 120px;
+        margin-left: 10px;
+        font-size: 13px;
+
+    }
+
+
+    .headerFormChofer {
+
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .headerFormChofer h1 {
+        font-size: 20px;
+        width: 290px;
+        margin: auto;
+
+    }
+
+
+    nav {
+
+        padding: 15px;
+        text-align: center;
+        margin: auto;
+    }
+
+    nav a {
+        text-decoration: none;
+        margin: 10px;
+        color: #333;
+    }
+
+
+    #avisoCampoLogin {
+
+
+        margin-top: 8%;
+        font-size: 8px;
+        margin-left: 2%;
+
+        color: red;
+        font-weight: bold;
+
+
+    }
+
+
+
+}

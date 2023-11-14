@@ -1,0 +1,1141 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: arial;
+}
+
+
+header {
+    background-color: #464545;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#menuPerfilFuncionarios {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilFuncionarios.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilFuncionarios img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilFuncionarios h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilFuncionarios button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilFuncionarios button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionFuncionarios {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionFuncionarios a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+#menuPerfilBorrarFuncionario {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilBorrarFuncionario.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilBorrarFuncionario img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilBorrarFuncionario h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilBorrarFuncionario button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilBorrarFuncionario button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionBorrarFuncionario {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionBorrarFuncionario a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+
+#menuPerfilAgregarFuncionario {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilAgregarFuncionario.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilAgregarFuncionario img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilAgregarFuncionario h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilAgregarFuncionario button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilAgregarFuncionario button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionAgregarFuncionario {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionAgregarFuncionario a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+#menuPerfilModificarFuncionario {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilModificarFuncionario.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilModificarFuncionario img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilModificarFuncionario h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilModificarFuncionario button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilModificarFuncionario button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionModificarFuncionario {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionModificarFuncionario a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+.userImg:hover {
+
+    transform: scale(1.1);
+
+}
+
+.miPerfil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+header h1 {
+
+    margin-left: 0%;
+}
+
+
+
+table {
+
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    border: 1px solid gray;
+    width: 530px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 2rem;
+
+}
+
+#headTable {
+
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(26, 165, 165);
+    height: 30px;
+
+}
+
+td {
+
+    border-right: 1px solid grey;
+
+    height: 45px;
+}
+
+tr:hover {
+
+    background-color: rgb(236, 236, 236);
+}
+
+
+.msjEliminar {
+
+    background-color: white;
+    width: 300px;
+    border-radius: 6px;
+
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    height: 160px;
+    font-size: 16px;
+    margin-top: 0%;
+    font-weight: bold;
+    font-family: arial;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+}
+
+.msj {
+
+    padding-top: 20px;
+
+}
+
+
+
+.advertenciaPedidos{
+
+
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.advertenciaPedidos img
+{
+
+opacity: 30%;
+margin-right: 46%;
+width: 60px;
+}
+
+.advertenciaPedidos h2{
+
+    opacity: 30%;
+
+    font-size: 20px;
+}
+
+
+
+
+
+#eliminar {
+
+    background: rgb(255, 12, 12);
+    border-radius: 5px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 8px;
+    margin-top: -8px;
+
+}
+
+#eliminar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#eliminar:hover {
+
+    background-color: rgb(185, 4, 4);
+}
+
+
+
+#modificar {
+
+
+    padding-top: 7px;
+    width: 80px;
+    height: 24px;
+    background-color: rgb(14, 241, 14);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -31px;
+}
+
+#modificar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#modificar:hover {
+
+    background-color: rgb(4, 165, 4);
+}
+
+#masInfo {
+
+    padding-top: 7px;
+    width: 80px;
+    height: 24px;
+    background-color: rgb(14, 93, 241);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 51%;
+    margin-top: -31px;
+
+}
+
+#masInfo a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+
+input {
+
+    outline: none;
+    height: 20px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(3, 3, 3);
+    margin-top: 4px;
+    color: black;
+}
+
+input:hover {
+
+    border-bottom: 1px solid rgb(24, 243, 24);
+}
+
+
+h2 {
+
+    margin-top: -3%;
+
+}
+
+#boton {
+
+    width: 130px;
+    height: 25px;
+    background-color: rgb(77, 77, 77);
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    margin-top: 6%;
+    border: none;
+    border-radius: 10px;
+}
+
+#boton:hover {
+
+    background-color: rgb(31, 31, 31);
+}
+
+.msjActualizacion {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 140px;
+
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 35px;
+}
+
+
+
+.iconoMsj {
+
+    margin-top: -7%;
+
+
+}
+
+
+
+
+.volverCorrecto {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(23, 214, 81);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 30px;
+    border: none;
+
+}
+
+.volverCorrecto:hover {
+
+    background-color: rgb(20, 175, 66);
+}
+
+
+.volverError {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(231, 32, 32);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    border: none;
+    height: 30px;
+
+}
+
+.volverError:hover {
+
+    background-color: rgb(170, 17, 17);
+}
+
+
+#containerTable {
+
+
+
+    margin: auto;
+
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 630px;
+    margin-top: -8%;
+    border-radius: 10px;
+    height: 500px;
+    border: 1px solid rgb(206, 226, 255);
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+
+}
+
+
+#containerTable h1 {
+
+    font-size: 23px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+#containerTable img {
+
+    margin-left: 44%;
+    margin-top: 1%;
+}
+
+
+
+#nomUsuario {
+
+    margin-left: 0%;
+    font-weight: bold;
+
+
+}
+
+#agregar {
+
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    width: 190px;
+    height: 30px;
+    background: rgb(76, 76, 247);
+    color: white;
+    font-weight: bold;
+
+}
+
+#agregar:hover {
+
+    background-color: rgb(3, 3, 129);
+
+}
+
+#buscador{
+
+  
+    border-radius: 4px;
+    border: 1px solid grey;
+    height: 25px;
+    width: 150px;
+    outline: none;
+    padding-left: 35px;
+    
+}
+
+
+#containerBuscador{
+
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+#imgBuscar{
+
+margin-right: 510px;
+margin-top: -24px;
+
+}
+
+#imgBuscar img{
+
+width: 20px;
+}
+
+
+#contrasenia {
+    display: inline-block;
+    margin-right: -10px;
+
+}
+
+#estadoPassword {
+
+    margin-right: -14px;
+}
+
+#formModificar {
+
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: -7%;
+    height: 370px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+#formModificar input {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 3%;
+    color: black;
+    display: inline;
+    margin-left: 3px;
+    width: 100px;
+    align-items: center;
+
+}
+
+
+
+#formModificar input:hover {
+
+    border-bottom: 1px solid rgb(47, 238, 63);
+
+}
+
+#formModificar input[type=submit] {
+
+    background-color: rgb(24, 243, 108);
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#formModificar input[type=submit]:hover {
+
+    background-color: rgb(29, 160, 29);
+}
+
+
+#formModificar label {
+
+    margin-top: 10%;
+
+    margin: auto;
+    color: rgb(151, 151, 151);
+}
+
+#formModificar div {
+
+
+
+    margin-left: 72%;
+    margin-top: -8%;
+}
+
+
+#formAgregar {
+
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    height: 340px;
+    width: 330px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+#formAgregar input {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 3%;
+    color: black;
+    display: inline-block;
+    margin-left: 3px;
+    width: 160px;
+    align-items: center;
+
+}
+
+#formAgregar select {
+
+    margin-top: 2%;
+    width: 100px;
+
+}
+
+
+
+#formAgregar input:hover {
+
+    border-bottom: 1px solid rgb(21, 112, 216);
+
+}
+
+#formAgregar input[type="submit"] {
+
+    background-color: rgb(21, 112, 216);
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#formAgregar input[type=submit]:hover {
+
+    background-color: rgb(21, 76, 128);
+}
+
+
+#formAgregar div {
+
+    margin-left: 72%;
+    margin-top: -8%;
+}
+
+#formAgregar h1 {
+
+    font-size: 23px;
+}
+
+#formAgregar label {
+    margin-right: 10%;
+    color: #b6b6b6;
+}
+
+#buscarCamion {
+
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: -10%;
+    height: 180px;
+    width: 330px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+#buscarCamion label {
+
+    color: #b6b6b6;
+
+}
+
+#buscarCamion input[type="submit"] {
+
+    background-color: rgb(21, 112, 216);
+    width: 120px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+#buscarCamion input[type="submit"]:hover {
+
+    background-color: rgb(21, 76, 128);
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+    
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    header h1 {
+    
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        width: 600px;
+    
+    }
+    
+    header img {
+    
+        margin-right: 3px;
+        width: 24px;
+    }
+    
+    
+    #menuPerfilFuncionarios {
+    
+        margin-top: -3%;
+        margin-left: 65%;
+        width: 100px;
+        height: 100px;
+    }
+    
+    #menuPerfilFuncionarios img {
+    
+        
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 20px;
+    }
+    
+    
+    #menuPerfilFuncionarios h4 {
+    
+        font-size: 8px;
+        margin-left: 36px;
+        margin-top: -23px;
+    }
+    
+    
+    
+    #menuPerfilFuncionarios button {
+    
+    
+        font-size: 9px;
+        width: 60px;
+        height: 20px;
+        border: none;
+        margin-left: 30px;
+        margin-top: 10px;
+    
+    }
+    
+    #menuPerfilFuncionarios button:hover {
+    
+        background-color: #239167;
+    }
+    
+    
+    .cerrarSesionFuncionarios {
+    
+        margin-top: -8%;
+    
+    }
+    
+    .cerrarSesionFuncionarios a {
+    
+        position: absolute;
+        margin-top: 14px;
+        margin-left: 7px;
+        font-size: 10px;
+        text-decoration: none;
+        color: #5c5c5c;
+    
+    }
+    
+    
+    #containerTable {
+    
+        margin: auto;
+        width: 93%;
+        margin-top: 2%;
+        height: 400px;
+        text-align: center;
+    
+    }
+
+    #containerTable h1{
+
+        font-size: 20px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+      #containerTable img{
+
+        width: 50px;
+        margin: auto;
+    }
+    
+    
+    #tableCamiones {
+    
+        margin: auto;
+        margin-top: 13px;
+        font-size: 14px;
+        text-align: center;
+        width: 310px;
+    
+    }
+    
+    #headTable {
+    
+        box-shadow: 2px 2px 2px grey;
+        background-color: rgb(26, 165, 165);
+        height: 30px;
+    
+    }
+    
+  
+    
+    #agregar {
+    
+        margin-top: 0%;
+        margin-left: 92%;
+        width: 190px;
+        height: 30px;
+    
+    
+    }
+    
+    #agregar:hover {
+    
+        background-color: rgb(3, 3, 129);
+    
+    }
+    
+    
+    #containerBuscador {
+    
+        margin-left: -50%;
+        margin-top: 2%;
+    }
+    
+    #containerBuscador input{
+
+        width: 100px;
+    }
+    
+    #imgBuscar {
+    
+        margin-left:26px;
+        margin-top: -23px;
+    
+    }
+
+    #imgBuscar img{
+
+        width: 20px;
+    }
+    
+
+    
+    }

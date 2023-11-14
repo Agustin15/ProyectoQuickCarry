@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #127262;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 59, 59);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ---------------------------------------------menu---------------------------------------------- */
+
+nav {
+  background-color: #b1b1b1;
+  padding:20px;
+  height:14px;
+  text-align: center;
+}
+
+nav a {
+  
+  font-size:16px;
+  text-decoration: none;
+  margin: 10px;
+  color: #333;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+/* ---------------------------------------------Texto e Imagen 1---------------------------------------------- */
+.Sobrenosotros {
+  border: #127262 solid 4px;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.image1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto; /* Centra horizontalmente la imagen y agrega espaciado vertical */
+}
+.container {
+  display: flex;
+}
+/* ---------------------------------------------Texto e Imagen 2 ---------------------------------------------- */
+.Sobrenosotros2 {
+  background-color: #127262;
+  color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column; /* Cambio la dirección de flex a columna para dispositivos pequeños */
+  align-items: center;
+  justify-content: center;
+}
+
+.image2 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto; /* Centra horizontalmente la imagen y agrega espaciado vertical */
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten horizontalmente */
+  justify-content: center;
+  align-items: center;
+}
+/* ---------------------------------------------Texto e Imagen 3 ---------------------------------------------- */
+.image3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto; /* Centra horizontalmente la imagen y agrega espaciado vertical */
+}
+
+.Sobrenosotros3 {
+  border: #127262 solid;
+  text-align: center;
+  margin: 40px;
+  padding: 10px;
+  font-size: 18px;
+  width: 500%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Centrar verticalmente el contenido */
+}
+/* ---------------------------------------------Texto 4 ---------------------------------------------- */
+.Sobrenosotros4 {
+
+  background-color: #127262;
+  color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column; /* Cambio la dirección de flex a columna para dispositivos pequeños */
+  align-items: center;
+  justify-content: center;
+  /* Centrar verticalmente el contenido */
+}
+
+/*-------------------------------------------------------------------FOOTER ---------------------------------*/
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  
+  header{
+
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+
+ header h1 {
+    font-size: 20px;
+    width: 290px;
+    margin: auto;
+
+}
+
+nav {
+
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: #333;
+}
+
+
+}

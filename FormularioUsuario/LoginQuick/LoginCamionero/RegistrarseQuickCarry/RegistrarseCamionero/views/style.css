@@ -1,0 +1,2382 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+
+    background-color: #464545;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.headerFormChofer {
+    background-color: #127262;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerFormChofer h1 {
+    font-size: 40px;
+    margin: auto;
+
+}
+
+/*--------------------------------------------------------------------Menu----------------------------------------------------------*/
+nav {
+    background-color: #b1b1b1;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: #333;
+}
+
+
+.userImg:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+header h1 {
+
+    margin-left: 0%;
+}
+
+header h2 {
+
+    margin-left: 39%;
+    font-size: 30px;
+}
+
+
+
+.headerAlmacenCrecom {
+
+    height: 40px;
+
+}
+
+
+.headerAlmacenCrecom h1 {
+
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+/*estilo de los formularios del login de camionero*/
+
+
+.imgFormReg {
+
+    margin-top: -415px;
+    margin-left: 463px;
+    transition: 0.3s;
+
+    color: white;
+}
+
+.imgFormReg img {
+
+    width: 470px;
+    height: 475px;
+    padding-top: -10px;
+}
+
+.imgFormReg h4 {
+
+    margin-top: -62%;
+    font-size: 33px;
+    font-weight: bold;
+
+
+}
+
+.imgFormReg p {
+
+    margin-top: 10px;
+}
+
+
+
+
+
+.containerForm {
+
+
+    margin-left: -50%;
+    margin-top: -30px;
+
+
+}
+
+
+
+#formRegistroCamionero {
+
+    text-align: center;
+    margin: auto;
+
+    background-color: white;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+    width: 930px;
+    height: 470px;
+    border-radius: 7px;
+    margin-top: 8%;
+
+}
+
+#formRegistroCamionero input {
+
+    margin-top: 30px;
+    display: inline-block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid;
+    outline: none;
+    transition: 0.2s;
+    height: 30px;
+
+
+}
+
+#formRegistroCamionero input:hover {
+
+
+    border-bottom: 1px solid rgb(23, 196, 219);
+
+
+}
+
+
+
+
+#botonRegistrarse {
+
+    width: 210px;
+    height: 30px;
+    background-color: rgb(23, 196, 219);
+    color: white;
+    cursor: pointer;
+    margin-left: 0%;
+
+
+}
+
+#botonRegistrarse:hover {
+
+    background-color: rgb(19, 160, 179);
+
+}
+
+
+
+#estadoPasswordReg {
+
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.inputCol1 {
+
+    margin-right: 30px;
+}
+
+
+
+#eliminar {
+
+    background: rgb(255, 12, 12);
+    border-radius: 5px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 30px;
+    margin-top: -8px;
+
+}
+
+#eliminar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#eliminar:hover {
+
+    background-color: rgb(185, 4, 4);
+}
+
+
+
+
+.iconoMsj {
+
+    margin-top: -7%;
+
+
+}
+
+.volverError {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(231, 32, 32);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    border: none;
+    height: 30px;
+
+}
+
+.volverError:hover {
+
+    background-color: rgb(170, 17, 17);
+}
+
+.msjEliminar {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 140px;
+
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 35px;
+}
+
+.msj {
+
+    padding-top: 20px;
+
+}
+
+
+.registrado {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 200px;
+    font-size: 23px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12%;
+    padding-top: 35px;
+}
+
+.registrado a {
+
+    padding-top: 30px;
+
+}
+
+.botonRegistrado {
+
+    margin-top: 36px;
+    border-radius: 4px;
+    background-color: rgba(22, 223, 22, 0.76);
+    width: 130px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+
+}
+
+.botonRegistrado:hover {
+
+    background-color: green;
+
+}
+
+
+.avisoCamposRegistrarse {
+
+
+    margin-top: -3%;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 26%;
+    color: red;
+
+}
+
+
+.avisoCamposRegistrarse h4 {
+
+    margin: auto;
+    font-weight: bold;
+    color: red;
+
+
+
+}
+
+
+#formLoginCamionero {
+
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    border: none;
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    width: 664px;
+    height: 390px;
+    border-radius: 7px;
+    text-align: center;
+
+
+}
+
+
+.inputs h1 {
+
+    font-size: 23px;
+    margin-right: 340px;
+
+}
+
+
+.inputs input {
+
+
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    height: 30px;
+    padding-left: 40px;
+    margin-right: 50%;
+    width: 180px;
+    background: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+
+}
+
+.inputs input:hover {
+
+    border-bottom: 1px solid rgb(23, 196, 219);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.inputs input::placeholder {
+
+    color: rgb(0, 0, 0);
+}
+
+
+
+.inputs img {
+
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 6px;
+
+}
+
+#botonEnviar {
+
+    width: 100px;
+    height: 30px;
+    background-color: rgb(23, 196, 219);
+    color: white;
+    margin-top: 76px;
+    margin-right: 350px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+
+
+}
+
+#botonEnviar:hover {
+
+    background-color: rgb(39, 128, 163);
+
+}
+
+
+
+.estadoPassword {
+
+
+    margin-left: -14%;
+    margin-top: -40px;
+    cursor: pointer;
+
+}
+
+
+.avisoCamposLogin {
+
+
+    margin-top: -3%;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 29%;
+    color: red;
+
+
+}
+
+
+.avisoCamposLogin h4 {
+
+    margin: auto;
+    font-weight: bold;
+    color: red;
+
+
+
+}
+
+.linkCamionero {
+
+    margin-top: 33px;
+    margin-right: 50%;
+}
+
+.linkCamioneroReg {
+
+    margin-top: 33px;
+    margin-right: 0%;
+}
+
+.imgForm {
+
+    margin-top: -298px;
+    margin-left: 333px;
+    transition: 0.3s;
+
+    color: white;
+}
+
+.imgForm img {
+
+    width: 333px;
+    height: 394px;
+    padding-top: -10px;
+}
+
+.imgForm h4 {
+
+    margin-top: -84%;
+    font-size: 33px;
+    font-weight: bold;
+
+
+}
+
+.imgForm p {
+
+    margin-top: 10px;
+}
+
+
+
+.verPass {
+
+    margin-top: -29px;
+    margin-left: 410px;
+}
+
+
+
+#menuPerfil {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -2%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+}
+
+
+
+#menuPerfil.active {
+
+    visibility: visible;
+
+}
+
+
+
+
+
+
+#menuPerfil:hover {
+
+    cursor: pointer;
+}
+
+#menuPerfil img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfil h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+.puesto {
+
+    margin-left: 90px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#menuPerfil button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfil button:hover {
+
+    background-color: #239167;
+}
+
+
+.cerrarSesion {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesion a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+#formEditarPerfil {
+
+
+    width: 570px;
+    height: 430px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1%;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    padding-top: 2%;
+}
+
+
+
+#formEditarPerfil input {
+
+    outline: none;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+
+
+
+.tituloEditar {
+
+    margin-top: -5%;
+
+    text-align: center;
+    height: 50px;
+
+}
+
+.tituloEditar h1 {
+
+
+
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+
+.containerInputsEditar {
+
+
+    margin-top: 8%;
+
+}
+
+.lblUsuario {
+
+    margin-right: 33%;
+}
+
+.lblNombreEditar {
+
+
+    margin-right: 34%;
+
+
+}
+
+.lblCorreoEditar {
+
+
+    margin-right: 36%;
+
+}
+
+.lblApellidoEditar {
+
+
+    margin-right: 33%;
+
+
+}
+
+.lblContraseniaEditar {
+
+
+    margin-right: 27%;
+
+}
+
+.lblMatriculaCamion {
+
+    margin-right: 11%;
+}
+
+
+.lblNumCamioneroEditar {
+
+    margin-right: 17%;
+}
+
+.lblCedulaEditar {
+
+    margin-right: 42%;
+}
+
+
+.inputIzqEditar {
+
+
+    margin-top: 67px;
+    margin-right: 40%;
+
+}
+
+
+.inputIzqEditar input {
+
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+.inputDerEditar {
+
+
+    margin-top: -235px;
+    margin-left: 40%;
+
+}
+
+
+.inputDerEditar input {
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+
+.inputDerEditar input:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+.inputIzqEditar input:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+
+.inputUsuarioEditar {
+
+    color: #b1b1b1;
+
+
+}
+
+
+.inputUsuarioEditar:focus {
+
+    border: 2px solid #2bc48a;
+    color: black;
+
+}
+
+.guardarCambios {
+
+    background-color: #2bc48a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 130px;
+    margin-left: 60%;
+
+}
+
+.guardarCambios:hover {
+
+    background-color: #29a072;
+
+}
+
+
+.containerDatosPerfil {
+
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+    height: 600px;
+
+}
+
+.containerUsuario {
+
+
+    margin-top: -37%;
+    margin-left: 8%;
+    padding-top: 30px;
+    text-align: center;
+    width: 200px;
+    height: 134px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+
+
+}
+
+.containerUsuario a {
+
+    font-weight: bold;
+}
+
+.containerUsuario img {
+
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    border-radius: 30px;
+
+}
+
+
+
+
+
+.buttonAceptar {
+
+    width: 60px;
+    height: 30px;
+    border: none;
+    background-color: #0efa36;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(97, 97, 97);
+}
+
+.buttonAceptar img {
+
+    margin-left: 0px;
+}
+
+.buttonAceptar:hover {
+
+    background-color: #22c53d;
+}
+
+
+.masInfo {
+
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(33, 152, 189);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+
+#avisoDatosExistentes {
+
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 2%;
+    width: 580px;
+    padding-top: 10px;
+    height: 42px;
+    background-color: rgba(252, 45, 45, 0.849);
+    border-radius: 10px;
+    visibility: hidden;
+
+}
+
+.containerInfo {
+
+    margin-right: 87%;
+    font-size: 15px;
+    margin-top: -4px;
+    display: flex;
+
+}
+
+.containerInfo a {
+
+    padding-left: 6px;
+    color: white
+}
+
+.containerInfo img {
+
+    padding-left: 10px;
+}
+
+
+#msjAviso {
+
+    font-size: 16px;
+    margin: auto;
+    margin-top: 1%;
+
+}
+
+
+
+
+.containerPanelChofer {
+
+
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+#map {
+
+    position: fixed;
+    margin-top: 0%;
+    height: 100%;
+    width: 100%;
+    margin-left: 29%;
+
+
+}
+
+
+
+.menuOpcionesPaquete nav {
+
+    background-color: white;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    text-align: center;
+    height: 40px;
+    color: rgb(123, 207, 240);
+
+}
+
+.menuOpcionesPaquete li {
+
+    list-style: none;
+    margin-top: -10px;
+    margin-left: 0px;
+    padding-bottom: 5px;
+    display: inline-block;
+    width: 80px;
+    transition: all 3ms;
+
+}
+
+.menuOpcionesPaquete a {
+
+    color: rgb(123, 207, 240);
+}
+
+.menuOpcionesPaquete li:hover {
+    transition: all 3ms;
+    border-bottom: 2px solid #57e4ee;
+}
+
+
+
+
+#btnSubir {
+
+
+    width: 190px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(44, 126, 248);
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#btnSubir img {
+
+    width: 30px;
+    margin-right: 13px;
+}
+
+#btnSubir:hover {
+
+    background-color: #0474be;
+}
+
+
+#opcionSubir form {
+
+    height: 400px;
+
+}
+
+
+#selectDepositar {
+
+
+    width: 200px;
+    box-shadow: 2px 2px 2px grey;
+    height: 100px;
+}
+
+#btnDejarEnQuick {
+
+    margin: auto;
+    margin-top: 6%;
+    height: 53px;
+    width: 170px;
+    border-radius: 4px;
+    background-color: rgb(231, 37, 37);
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#btnDejarEnQuick img {
+
+
+    width: 50px;
+    margin-right: 13px;
+    margin-top: 10px;
+
+
+}
+
+
+#btnDejarEnQuick:hover {
+
+    background-color: rgb(211, 22, 22);
+
+}
+
+
+
+#menuPerfil {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: fixed;
+    margin-top: -2%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfil.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfil img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfil h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfil button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfil button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesion {
+
+    margin-top: 5%;
+
+
+
+}
+
+.cerrarSesion a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+.containerChofer {
+
+    margin: auto;
+    margin-top: 2%;
+    width: 540px;
+    height: 550px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+
+}
+
+.advertenciaPedidos img {
+
+    width: 50px;
+    opacity: 30%;
+    margin-top: 10%;
+}
+
+.advertenciaPedidos h2 {
+
+    opacity: 30%;
+}
+
+.containerChofer img {
+
+    margin-top: 5%;
+}
+
+.containerChofer h2 {
+
+
+    font-size: 18px;
+}
+
+
+
+
+.containerChofer ul {
+
+
+
+    margin-top: -4%;
+    width: 500px;
+    height: 170px;
+
+
+}
+
+.containerChofer li {
+
+    list-style: none;
+    display: inline-block;
+    padding-top: 23px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.containerChofer button {
+
+    background-color: rgb(34, 34, 201);
+    width: 110px;
+    height: 32px;
+    color: white;
+    font-weight: bold;
+    border-radius: 13px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    margin-top: 4%;
+    border: none;
+
+
+
+}
+
+
+
+.containerChofer button:hover {
+
+    background-color: rgb(28, 28, 126);
+
+}
+
+.containerChofer label {
+
+    font-weight: bold;
+
+}
+
+#iconoCamionDatosPaquete {
+
+    margin-right: 0%;
+    margin-top: 9%;
+
+}
+
+
+#menu {
+
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 5px;
+    height: 25px;
+    padding-top: 2px;
+    width: 50px;
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+
+}
+
+
+#menu img {
+
+    width: 20px;
+}
+
+
+#menu:hover {
+
+    transform: scale(1.1);
+}
+
+#containerDatosPaquete {
+
+    position: fixed;
+    margin-left: -6px;
+    margin-top: 2%;
+    width: 390px;
+    height: 99%;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+
+}
+
+#containerDatosPaquete h3 {
+
+
+    font-size: 14px;
+}
+
+#containerDatosPaquete select {
+
+    margin-top: 2%;
+    width: 200px;
+    border-radius: 4px;
+    outline: none;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+#containerDatosPaquete ul {
+
+    margin-top: -2%;
+    margin-left: 0%;
+    width: 367px;
+
+
+}
+
+#containerDatosPaquete li {
+
+    list-style: none;
+    padding: 14px;
+
+
+
+}
+
+
+#containerDatosPaquete label {
+
+    font-weight: bold;
+}
+
+
+#opcionSubir {
+
+
+    margin-top: 3%;
+    margin-left: 0%;
+
+
+}
+
+.imgBannerChofer {
+
+    width: 250px;
+    margin-left: 40%;
+
+}
+
+
+
+
+
+.volverError {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(231, 32, 32);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    border: none;
+    height: 30px;
+
+}
+
+.volverError:hover {
+
+    background-color: rgb(170, 17, 17);
+}
+
+.msjEliminar {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 140px;
+
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 35px;
+}
+
+
+.tituloDejarCamion {
+
+
+    justify-content: center;
+    display: flex;
+
+
+}
+
+
+
+.tituloDejarCamion img {
+
+    width: 60px;
+    margin-top: -6%;
+
+
+}
+
+
+.imgGif {
+
+    margin-top: 50%;
+    margin-left: 10%;
+    font-weight: bold;
+
+}
+
+
+
+.imgGif img {
+
+    margin-top: 2%;
+}
+
+.imgGif label {
+
+    margin-left: 0%;
+}
+
+
+.imgGif2 {
+
+    margin-top: 50%;
+    margin-left: 9%;
+    font-weight: bold;
+
+}
+
+
+
+.imgGif2 img {
+
+    margin-top: 1%;
+    margin-left: -3%;
+}
+
+.imgGif2 label {
+
+    margin-left: -5%;
+}
+
+#tableRutas {
+
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+}
+
+#tableRutas td {
+
+    width: 100px;
+    height: 40px;
+
+}
+
+#tableRutas td:hover {
+
+    background-color: aliceblue;
+}
+
+
+#headerTableRutas {
+
+    background-color: rgb(43, 180, 180);
+
+}
+
+
+
+#containerTableRutas {
+
+    margin: auto;
+    margin-top: 2%;
+    width: 580px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    height: 430px;
+    border-radius: 6px;
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+
+}
+
+
+
+#containerTableRutas h1 {
+
+    font-size: 20px;
+
+}
+
+#logoTableTrayectos {
+
+    width: 55px;
+}
+
+#buscador {
+
+
+    border-radius: 4px;
+    border: 1px solid grey;
+    height: 23px;
+    width: 150px;
+    outline: none;
+    padding-left: 35px;
+
+}
+
+
+#containerBuscador {
+
+    margin-right: 58%;
+    margin-top: 3%;
+}
+
+#imgBuscar {
+
+    margin-right: 477px;
+    margin-top: -22px;
+
+}
+
+#imgBuscar img {
+
+    width: 20px;
+}
+
+
+#containerTitulo {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 14px;
+}
+
+#containerTitulo img {
+
+    width: 50px;
+    margin-left: 2%;
+    margin-top: -1%;
+}
+
+
+#imgBannerChofer {
+
+    width: 100%;
+    height: 400px;
+
+}
+
+@media (max-width:600px) {
+
+
+
+    .headerAlmacenCrecom {
+
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+
+    }
+
+    header h1 {
+
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        width: 600px;
+
+    }
+
+    header img {
+
+        margin-right: 3px;
+        width: 24px;
+    }
+
+    #menuPerfil {
+
+        margin-top: -8%;
+        margin-left: 65%;
+        width: 100px;
+        height: 100px;
+    }
+
+    #menuPerfil img {
+
+
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 20px;
+    }
+
+
+    #menuPerfil h4 {
+
+        font-size: 8px;
+        margin-left: 36px;
+        margin-top: -23px;
+    }
+
+
+
+    #menuPerfil button {
+
+
+        font-size: 9px;
+        width: 60px;
+        height: 20px;
+        border: none;
+        margin-left: 30px;
+        margin-top: 10px;
+
+    }
+
+    #menuPerfil button:hover {
+
+        background-color: #239167;
+    }
+
+
+    .cerrarSesion {
+
+        margin-top: -8%;
+
+    }
+
+    .cerrarSesion a {
+
+        position: absolute;
+        margin-top: 14px;
+        margin-left: 7px;
+        font-size: 10px;
+        text-decoration: none;
+        color: #5c5c5c;
+
+    }
+
+
+
+
+    .menuOpcionesPaquete li {
+
+        list-style: none;
+        margin-top: 0%;
+        margin: auto;
+        padding-bottom: 5px;
+        display: inline-block;
+        width: 60px;
+        font-size: 14px;
+        transition: all 3ms;
+
+    }
+
+    .menuOpcionesPaquete img {
+
+        width: 30px;
+    }
+
+
+    .containerChofer {
+
+        margin: auto;
+        width: 360px;
+        text-align: center;
+    }
+
+
+    .containerChofer h2 {
+
+
+        font-size: 14px;
+
+    }
+
+    #imgContainerChofer {
+
+        width: 100px;
+    }
+
+
+
+
+    .containerChofer ul {
+
+
+
+        margin-top: -4%;
+        width: 500px;
+        margin-left: -18%;
+        height: 170px;
+
+
+    }
+
+    .containerChofer li {
+
+        list-style: none;
+        display: inline-block;
+        padding-top: 23px;
+
+        width: 200px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .containerChofer button {
+
+
+        width: 100px;
+        height: 28px;
+        margin-top: 2%;
+        font-size: 10px;
+
+    }
+
+
+    .containerChofer label {
+
+        font-weight: bold;
+
+    }
+
+    #direccion {
+
+        margin-left: 10px;
+    }
+
+
+    #containerTableRutas {
+
+
+        width: 340px;
+        margin-top: 10%;
+    }
+
+    #containerTableRutas h1 {
+
+        font-size: 14px;
+
+    }
+
+    #containerBuscador {
+
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+
+    #containerBuscador input {
+
+        width: 100px;
+        margin-left: 0px;
+    }
+
+    #imgBuscar {
+
+        margin-left: 20px;
+        margin-top: -23px;
+
+    }
+
+    #tableRutas {
+
+        width: 320px;
+        font-size: 13px;
+    }
+
+    #tableRutas img {
+
+        width: 25px;
+    }
+
+
+
+    #menu {
+
+        position: absolute;
+        margin-top: 4px;
+        margin-left: 3px;
+        height: 25px;
+        padding-top: 2px;
+        width: 30px;
+
+    }
+
+
+    #containerDatosPaquete {
+
+        position: fixed;
+        margin-left: -40%;
+        margin-top: 5%;
+        width: 265px;
+        height: 99%;
+        text-align: center;
+        overflow-y: scroll;
+
+
+    }
+
+
+    #containerDatosPaquete h3 {
+
+
+        font-size: 14px;
+    }
+
+    #containerDatosPaquete select {
+
+        margin-top: 2%;
+        width: 100px;
+        font-size: 11px;
+        margin-left: 40px;
+        border-radius: 4px;
+        outline: none;
+    }
+
+    #containerDatosPaquete ul {
+
+        margin-top: -2%;
+        margin-left: 0%;
+        width: 367px;
+
+
+    }
+
+    #containerDatosPaquete li {
+
+        list-style: none;
+        padding: 14px;
+
+
+
+    }
+
+    #btnSubir {
+
+        width: 90px;
+        font-size: 10px;
+        margin-left: 157px;
+        margin-top: 10px;
+        padding-left: 10px;
+
+    }
+
+    #btnSubir img {
+
+        width: 30px;
+
+    }
+
+
+    #containerDatosPaquete label {
+
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 38px;
+
+    }
+
+    #selectDepositar {
+
+        width: 100px;
+    }
+
+    #iconoCamionDatosPaquete {
+
+        margin-top: 17%;
+        width: 40px;
+        margin-left: 140px;
+    }
+
+    #btnDejarEnQuick {
+
+        width: 90px;
+        font-size: 10px;
+        margin-left: 157px;
+        margin-top: 10px;
+        padding-left: 20px;
+
+
+    }
+
+    #btnDejarEnQuick img {
+
+        width: 40px;
+    }
+
+    #opcionSubir label {
+
+        font-size: 9px;
+    }
+
+    .imgGif {
+
+        margin-top: 140%;
+        margin-left: 5px;
+    }
+
+
+    .imgGif img {
+
+
+        width: 60px;
+    }
+
+
+    .imgGif label {
+
+        font-size: 10px;
+        width: 20px;
+    }
+
+
+    .imgGif2 {
+
+        margin-top: 140%;
+        margin-left: 5px;
+
+    }
+
+    .imgGif2 img {
+
+
+        width: 100px;
+        margin-left: -20px;
+    }
+
+
+    .imgGif2 label {
+
+        font-size: 5px;
+
+    }
+
+    .containerDatosPerfil {
+
+        margin: auto;
+        width: 340px;
+
+    }
+
+    .containerUsuario {
+
+
+
+        margin-top: -180%;
+        margin-left: 4%;
+        width: 130px;
+        height: 70px;
+    }
+
+    .containerUsuario a {
+
+        font-size: 12px;
+
+
+    }
+
+    .containerUsuario img {
+
+        width: 30px;
+        margin-top: -20px;
+
+    }
+
+    #formEditarPerfil {
+
+        width: 280px;
+        margin: auto;
+        margin-top: 3%;
+
+    }
+
+    #formEditarPerfil h1 {
+
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #formEditarPerfil input {
+
+        width: 60%;
+        font-size: 12px;
+
+    }
+
+    .containerInputsEditar {
+
+        margin-top: -20px;
+    }
+
+    #formEditarPerfil label {
+
+
+        font-size: 13px;
+
+    }
+
+    #avisoDatosExistentes {
+
+
+        width: 270px;
+        margin: auto;
+        margin-top: 29%;
+        height: 30px;
+
+    }
+
+    #avisoDatosExistentes a {
+
+        font-size: 13px;
+
+    }
+
+    #avisoDatosExistentes img {
+
+        width: 13px;
+    }
+
+
+    #avisoDatosExistentes h2 {
+
+        font-size: 12px;
+        margin-left: 17px;
+        width: 130px;
+
+    }
+
+
+    #formEditarPerfil input[type="submit"] {
+
+        width: 60%;
+        font-size: 12px;
+        margin-left: 0%;
+
+    }
+
+
+}
+
+
+
+@media (min-width:667px) and (max-width:990px) {
+
+
+    .headerAlmacenCrecom {
+
+        height: 30px;
+        font-size: 12px;
+    }
+
+
+    #menu {
+
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 5px;
+        height: 25px;
+        padding-top: 2px;
+        width: 40px;
+
+    }
+
+
+    #menu img {
+
+        width: 20px;
+    }
+
+
+    #containerDatosPaquete {
+
+        position: fixed;
+        margin-left: -16%;
+        width: 307px;
+        height: 99%;
+        text-align: center;
+        overflow-y: scroll;
+
+
+    }
+
+    #containerDatosPaquete h3 {
+
+
+        font-size: 14px;
+    }
+
+    #containerDatosPaquete select {
+
+        margin-top: 2%;
+        width: 120px;
+        font-size: 11px;
+        margin-left: 40px;
+        border-radius: 4px;
+        outline: none;
+    }
+
+    #containerDatosPaquete ul {
+
+        margin-top: -2%;
+        margin-left: 0%;
+        width: 367px;
+
+
+    }
+
+    #containerDatosPaquete li {
+
+        list-style: none;
+        padding: 14px;
+
+
+
+    }
+
+    #btnSubir {
+
+        width: 90px;
+        font-size: 10px;
+        margin-left: 157px;
+        margin-top: 10px;
+        padding-left: 10px;
+
+    }
+
+    #btnSubir img {
+
+        width: 30px;
+
+    }
+
+
+    #containerDatosPaquete label {
+
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 38px;
+
+    }
+
+    #selectDepositar {
+
+        width: 100px;
+    }
+
+    #iconoCamionDatosPaquete {
+
+        width: 40px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    #btnDejarEnQuick {
+
+        width: 90px;
+        font-size: 10px;
+        margin-left: 157px;
+        margin-top: 10px;
+        padding-left: 20px;
+
+
+    }
+
+    #btnDejarEnQuick img {
+
+        width: 40px;
+    }
+
+    #opcionSubir label {
+
+        font-size: 9px;
+    }
+
+    .imgGif {
+
+        margin-top: 130%;
+        margin-left: 5px;
+    }
+
+
+    .imgGif img {
+
+
+        width: 60px;
+    }
+
+
+    .imgGif label {
+
+        font-size: 10px;
+        width: 20px;
+    }
+
+
+    .imgGif2 {
+
+        margin-top: 130%;
+        margin-left: 5px;
+
+    }
+
+    .imgGif2 img {
+
+
+        width: 100px;
+        margin-left: -20px;
+    }
+
+
+    .imgGif2 label {
+
+        font-size: 9px;
+
+    }
+
+    .containerDatosPerfil {
+
+        margin: auto;
+        width: 340px;
+
+    }
+
+    .containerUsuario {
+
+
+
+        margin-top: -180%;
+        margin-left: 4%;
+        width: 130px;
+        height: 70px;
+    }
+
+    .containerUsuario a {
+
+        font-size: 12px;
+
+
+    }
+
+    .containerUsuario img {
+
+        width: 30px;
+        margin-top: -20px;
+
+    }
+
+    #formEditarPerfil {
+
+        width: 280px;
+        margin: auto;
+        margin-top: 3%;
+
+    }
+
+    #formEditarPerfil h1 {
+
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #formEditarPerfil input {
+
+        width: 60%;
+        font-size: 12px;
+
+    }
+
+    .containerInputsEditar {
+
+        margin-top: -20px;
+    }
+
+    #formEditarPerfil label {
+
+
+        font-size: 13px;
+
+    }
+
+    #avisoDatosExistentes {
+
+
+        width: 270px;
+        margin: auto;
+        margin-top: 29%;
+        height: 30px;
+
+    }
+
+    #avisoDatosExistentes a {
+
+        font-size: 13px;
+
+    }
+
+    #avisoDatosExistentes img {
+
+        width: 13px;
+    }
+
+
+    #avisoDatosExistentes h2 {
+
+        font-size: 12px;
+        margin-left: 17px;
+        width: 130px;
+
+    }
+
+
+    #formEditarPerfil input[type="submit"] {
+
+        width: 60%;
+        font-size: 12px;
+        margin-left: 0%;
+
+    }
+
+}
