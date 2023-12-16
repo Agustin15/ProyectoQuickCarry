@@ -1,0 +1,2948 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: #464545;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.buscarLote {
+
+    background-color: #fff;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+    width: 250px;
+    height: 130px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2%;
+
+
+}
+
+.buscarLote a {
+
+    font-weight: bold;
+}
+
+
+
+
+.buscarLote select {
+
+    margin-top: 10px;
+    width: 50px;
+}
+
+.buscarLote input {
+
+    width: 80px;
+    height: 20px;
+    background-color: rgb(86, 243, 24);
+    box-shadow:
+
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+.buscarLote input:hover {
+
+    background-color: rgb(84, 199, 38);
+}
+
+
+
+.buscarLoteBorrar {
+
+    background-color: #fff;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2%;
+
+
+}
+
+.buscarLoteBorrar a {
+
+    font-weight: bold;
+}
+
+.buscarLoteBorrar select {
+
+    margin-top: 10px;
+    width: 50px;
+}
+
+
+
+.buscarLoteBorrar input {
+
+    width: 80px;
+    height: 20px;
+    background-color: rgb(243, 24, 24);
+    box-shadow:
+
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+.buscarLoteBorrar input:hover {
+
+    background-color: rgb(138, 17, 17);
+}
+
+
+
+.menuAlmacen {
+
+    background: none;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+
+.menuAlmacen img {
+
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.menuAlmacen li {
+
+    display: inline-block;
+    width: 13%;
+    padding: -2px 20px;
+    text-align: center;
+
+    color: #fff;
+    transition: 0.3s;
+    padding-bottom: 4px;
+
+}
+
+.menuAlmacen a {
+
+    text-align: center;
+    color: white;
+}
+
+.menuAlmacen li:hover {
+
+    transition: 0.3s;
+    border-bottom: #2bc48a 2px solid;
+}
+
+
+.AlmacenCrecom {
+
+    height: 60px;
+}
+
+.headerCrecom {
+    background-color: #464545;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.headerAlmacenCrecom h1 {
+
+    text-align: center;
+    margin: auto;
+}
+
+
+.headerFormCrecom {
+    background-color: #127262;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerFormCrecom h1 {
+    font-size: 40px;
+    margin: auto;
+
+}
+
+/*--------------------------------------------------------------------Menu----------------------------------------------------------*/
+nav {
+    background-color: #b1b1b1;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: #333;
+}
+
+
+.userImg:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+header h1 {
+
+    margin-left: 0%;
+}
+
+header h2 {
+
+    margin-left: 39%;
+    font-size: 30px;
+}
+
+
+
+.titulo h2 {
+
+    display: inline-block;
+    padding-top: -10px;
+    margin-left: 35px;
+}
+
+.titulo img {
+
+    margin-left: 20px;
+
+}
+
+.listaPaqueteCheck {
+
+    border: 1px solid grey;
+    overflow-y: scroll;
+    width: 250px;
+    text-align: center;
+
+
+}
+
+.listaPaqueteCheck label {
+
+    display: flex;
+}
+
+
+
+
+
+#formModificar {
+
+    color: black;
+    background-color: white;
+
+    height: 200px;
+    width: 300px;
+    box-shadow: 2px 2px 2px grey;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+
+
+}
+
+#formModificar input[type=submit] {
+
+    background-color: rgb(86, 243, 24);
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 4px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#formModificar input {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 16px;
+    color: black;
+    margin-left: 3px;
+    width: 200px;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    transition: 0.2s;
+
+
+}
+
+
+#formModificar input:hover {
+
+    border-bottom: 1px solid rgb(86, 243, 24);
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+
+#formModificar input[type=submit]:hover {
+
+    background-color: rgb(58, 190, 6);
+
+}
+
+
+#formModificar img {
+
+    display: flex;
+    margin-left: 230px;
+    margin-top: -32px;
+    width: 38px;
+
+}
+
+
+
+#formModificar select {
+
+    width: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-top: 10px;
+
+}
+
+
+#formModificar label {
+
+    color: rgb(109, 109, 109);
+    font-size: 13px;
+    margin: auto;
+}
+
+#formModificar h2 {
+    margin: auto;
+    font-size: 18px;
+}
+
+#formAgregar {
+
+    color: black;
+    background-color: white;
+
+    height: 380px;
+    width: 380px;
+    box-shadow: 2px 2px 2px grey;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+
+}
+
+
+
+
+#formAgregar select {
+
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-top: 20px;
+    width: 200px;
+
+}
+
+
+#formAgregar label {
+
+    color: rgb(109, 109, 109);
+    font-size: 13px;
+    margin-right: 38%;
+}
+
+
+
+#lblSeleccionarPaquetes {
+
+    margin-left: 22%;
+}
+
+#lblElegirCamioneta {
+
+    margin-left: 23%;
+}
+
+#formAgregar input[type=submit] {
+
+    background-color: rgb(24, 93, 243);
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+#formAgregar input {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    color: black;
+    margin-left: 3px;
+    align-items: center;
+    border-top: none;
+    width: 200px;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    transition: 0.2s;
+
+}
+
+
+
+#formAgregar input[type=number] {
+
+    width: 200px;
+
+}
+
+#formAgregar input:hover {
+
+    border-bottom: 1px solid rgb(24, 93, 243);
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+
+#formAgregar input[type=submit]:hover {
+
+    background-color: rgb(35, 35, 212);
+
+}
+
+
+#nomProducto {
+
+    margin-left: 0%;
+    font-weight: bold;
+
+
+}
+
+
+
+.msjActualizacion {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 140px;
+
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 35px;
+}
+
+
+
+.iconoMsj {
+
+    margin-top: -7%;
+
+
+}
+
+
+.volverCorrecto {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(23, 214, 81);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 30px;
+    border: none;
+
+}
+
+.volverCorrecto:hover {
+
+    background-color: rgb(20, 175, 66);
+}
+
+
+.volverError {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(231, 32, 32);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    border: none;
+    height: 30px;
+
+}
+
+.volverError:hover {
+
+    background-color: rgb(170, 17, 17);
+}
+
+.msjEliminar {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 140px;
+
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 35px;
+}
+
+.msj {
+
+    padding-top: 20px;
+
+}
+
+
+table {
+
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    border: 1px solid gray;
+    width: 540px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 2rem;
+    background-color: white;
+
+}
+
+
+
+#headTable {
+
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(63, 216, 221);
+    height: 30px;
+
+}
+
+td {
+
+    border-right: 1px solid grey;
+    height: 40px;
+}
+
+tr:hover {
+
+    background-color: rgb(236, 236, 236);
+}
+
+
+
+
+
+#eliminar {
+
+    background: rgb(255, 12, 12);
+    border-radius: 5px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 20px;
+    margin-top: -8px;
+
+}
+
+#eliminar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#eliminar:hover {
+
+    background-color: rgb(185, 4, 4);
+}
+
+
+
+#modificar {
+
+
+    padding-top: 7px;
+    width: 80px;
+    height: 24px;
+    background-color: rgb(14, 241, 14);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: -31px;
+}
+
+#modificar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#modificar:hover {
+
+    background-color: rgb(4, 165, 4);
+}
+
+
+
+#masInfo {
+
+
+    margin: auto;
+
+}
+
+#masInfo img {
+    margin: auto;
+    width: 40px;
+
+}
+
+
+#btnDetalles {
+
+    padding-top: 7px;
+    width: 110px;
+    height: 24px;
+    background-color: rgb(14, 93, 241);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 2px;
+
+}
+
+#btnDetalles:hover {
+
+    background-color: rgb(10, 61, 156);
+
+}
+
+
+
+#btnDetalles a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#btnArmar {
+
+    padding-top: 7px;
+    width: 110px;
+    height: 24px;
+    background-color: rgb(59, 241, 14);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0px;
+    margin: auto;
+
+}
+
+#btnArmar:hover {
+
+    background-color: rgb(9, 172, 23);
+
+}
+
+#btnArmar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#containerTable {
+
+
+
+    margin: auto;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    border: 1px solid rgb(206, 226, 255);
+    width: 630px;
+    border-radius: 10px;
+    margin-top: 4%;
+    text-align: center;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: center;
+
+
+}
+
+#containerTable h1 {
+
+    margin: auto;
+    font-weight: 200;
+    font-size: 24px;
+    margin-top: -12%;
+}
+
+
+#imgLotes {
+
+
+    width: 60px;
+
+}
+
+
+
+#containerTableLote {
+
+
+
+    margin: auto;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    border: 1px solid rgb(206, 226, 255);
+
+    width: 630px;
+    border-radius: 10px;
+    margin-top: 4%;
+    height: 440px;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+
+}
+
+#containerTableLote h1 {
+    font-size: 20px;
+    margin-top: 2%;
+
+}
+
+#headTableLote {
+
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(26, 165, 165);
+    height: 30px;
+
+}
+
+
+#containerTablePedidos {
+
+
+
+    margin: auto;
+    border: 1px solid rgb(206, 226, 255);
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 4%;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: center;
+
+
+}
+
+#containerTablePedidos h1 {
+
+    font-size: 25px;
+    margin-top: -23px;
+
+}
+
+#imgTablePedidos img {
+
+    width: 60px;
+}
+
+
+#agregarPaqueteAlLote img {
+
+    width: 40px;
+
+}
+
+#containerTablePedidos table {
+
+    width: 630px;
+
+}
+
+#headTablePedidos {
+
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(63, 216, 221);
+    height: 30px;
+
+
+}
+
+
+.advertenciaPedidos {
+
+
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.advertenciaPedidos img {
+
+    opacity: 30%;
+    width: 40px;
+}
+
+.advertenciaPedidos h2 {
+
+    opacity: 30%;
+
+    font-size: 20px;
+}
+
+
+
+#agregar {
+
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    width: 190px;
+    height: 30px;
+    background: rgb(76, 76, 247);
+    color: white;
+    font-weight: bold;
+
+}
+
+#agregar:hover {
+
+    background-color: rgb(3, 3, 129);
+
+}
+
+
+
+.containerOpciones {
+
+    margin: auto;
+    margin-top: 0%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+.boxOpcion1 {
+
+
+
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 270px;
+    height: 330px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.4s;
+    margin-right: 10%;
+    margin-top: 10%;
+
+
+}
+
+
+.boxOpcion2 {
+
+
+
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 270px;
+    height: 330px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.4s;
+
+    margin-top: 10%;
+
+
+}
+
+
+.boxOpcion1:hover {
+
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
+
+
+.boxOpcion2:hover {
+
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
+
+.containerOpciones img {
+
+    padding-top: 18%;
+}
+
+.containerOpciones button {
+
+    width: 100px;
+    height: 30px;
+    border: 3px;
+    background-color: #31c9dd;
+    color: white;
+    font-weight: bold;
+    margin-top: 14%;
+    box-shadow:
+        0 0 0 2px #31c9dd,
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+.containerOpciones button:hover {
+
+    background-color: #208f9e;
+}
+
+
+
+
+#menuPerfilAlmacen {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-left: 83%;
+    margin-top: -1%;
+    position: fixed;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilAlmacen.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilAlmacen img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilAlmacen h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilAlmacen button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilAlmacen button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+
+
+.cerrarSesionAlmacen {
+
+    margin-top: 5%;
+
+
+
+
+}
+
+
+
+
+.cerrarSesionAlmacen a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+#menuPerfilEditar {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-left: 83%;
+    margin-top: -2%;
+    position: fixed;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilEditar.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilEditar img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilEditar h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilEditar button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilEditar button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+
+
+#menuPerfilModificarLote {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: fixed;
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilModificarLote.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilModificarLote img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilModificarLote h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilModificarLote button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilModificarLote button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionModificarLote {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionModificarLote a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+#menuPerfilAgregarLote {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: fixed;
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+}
+
+
+#menuPerfilAgregarLote.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilAgregarLote img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilAgregarLote h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilAgregarLote button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilAgregarLote button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionAgregarLote {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionAgregarLote a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+#menuPerfilLote2 {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+}
+
+
+#menuPerfilLote2.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilLote2 img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilLote2 h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilLote2 button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilLote2 button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionLote2 {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionLote2 a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+/*estilo para formularios*/
+
+
+
+.imgFormReg {
+
+    margin-top: -418px;
+    margin-left: 463px;
+    transition: 0.3s;
+
+    color: white;
+}
+
+.imgFormReg img {
+
+    width: 470px;
+    height: 474px;
+    padding-top: -10px;
+}
+
+.imgFormReg h4 {
+
+    margin-top: -63%;
+    font-size: 33px;
+    font-weight: bold;
+
+
+}
+
+.imgFormReg p {
+
+    margin-top: 16px;
+}
+
+
+
+
+
+.containerForm {
+
+
+    margin-left: -50%;
+    margin-top: -30px;
+
+
+}
+
+
+
+
+#formRegistroCrecom {
+
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 930px;
+    height: 470px;
+    border-radius: 7px;
+    margin-top: 8%;
+
+}
+
+#formRegistroCrecom input {
+
+    margin-top: 30px;
+    display: inline-block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid;
+    outline: none;
+    transition: 0.2s;
+    height: 30px;
+
+
+}
+
+#formRegistroCrecom input:hover {
+
+
+    border-bottom: 1px solid rgb(23, 196, 219);
+
+
+}
+
+
+
+
+#botonRegistrarse {
+
+    width: 210px;
+    height: 30px;
+    background-color: rgb(23, 196, 219);
+    color: white;
+    cursor: pointer;
+    margin-left: 0%;
+
+
+}
+
+#botonRegistrarse:hover {
+
+    background-color: rgb(19, 160, 179);
+
+}
+
+
+
+#estadoPasswordReg {
+
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.inputCol1 {
+
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+#eliminar {
+
+    background: rgb(255, 12, 12);
+    border-radius: 5px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 30px;
+    margin-top: -8px;
+
+}
+
+#eliminar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#eliminar:hover {
+
+    background-color: rgb(185, 4, 4);
+}
+
+
+.registrado {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 200px;
+    font-size: 23px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12%;
+    padding-top: 35px;
+}
+
+.registrado a {
+
+    padding-top: 30px;
+
+}
+
+.botonRegistrado {
+
+    margin-top: 36px;
+    border-radius: 4px;
+    background-color: rgba(22, 223, 22, 0.76);
+    width: 130px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+
+}
+
+.botonRegistrado:hover {
+
+    background-color: green;
+
+}
+
+
+.avisoCamposRegistrarse {
+
+    margin-top: -3%;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 20%;
+    color: red;
+
+
+
+}
+
+
+
+.avisoCamposRegistrarse h4 {
+
+    margin: auto;
+    font-weight: bold;
+    color: red;
+
+
+
+}
+
+
+#buscador {
+
+
+    border-radius: 4px;
+    border: 1px solid grey;
+    height: 25px;
+    width: 150px;
+    outline: none;
+    padding-left: 35px;
+
+}
+
+#containerBuscador {
+
+    margin-right: 58%;
+    margin-top: 3%;
+}
+
+#imgBuscarLote {
+
+    margin-right: 506px;
+    margin-top: -23px;
+
+}
+
+#imgBuscarLote img {
+
+    width: 20px;
+}
+
+#imgBuscar {
+
+    margin-right: 546px;
+    margin-top: -23px;
+
+}
+
+#imgBuscar img {
+
+    width: 20px;
+}
+
+#inputContrasenia {
+    margin-left: -1%;
+
+}
+
+#estadoPasswordReg {
+
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+
+/*estilo formulario del login de crecom*/
+
+
+#formLoginCrecom {
+
+    text-align: center;
+    ;
+    margin: auto;
+    ;
+    margin-top: 5%;
+    background-color: white;
+    border: none;
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    width: 664px;
+    height: 390px;
+    border-radius: 7px;
+    text-align: center;
+
+
+}
+
+
+.inputs h1 {
+
+    font-size: 23px;
+    margin-right: 340px;
+
+}
+
+
+.inputs input {
+
+
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    height: 30px;
+    padding-left: 40px;
+    margin-right: 50%;
+    width: 180px;
+    background: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+
+}
+
+.inputs input:hover {
+
+    border-bottom: 1px solid rgb(23, 196, 219);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.inputs input::placeholder {
+
+    color: rgb(0, 0, 0);
+}
+
+
+
+.inputs img {
+
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 6px;
+
+}
+
+#botonEnviar {
+
+    width: 100px;
+    height: 30px;
+    background-color: rgb(23, 196, 219);
+    color: white;
+    margin-top: 65px;
+    margin-right: 350px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+
+
+}
+
+#botonEnviar:hover {
+
+    background-color: rgb(39, 128, 163);
+
+}
+
+
+
+.estadoPassword {
+
+
+    margin-left: -14%;
+    margin-top: -35px;
+    cursor: pointer;
+
+
+
+}
+
+
+.avisoCamposLogin {
+
+
+    margin-top: -3%;
+
+    font-size: 15px;
+    margin-left: 30%;
+    color: red;
+
+
+
+}
+
+
+.avisoCamposLogin h4 {
+
+    margin: auto;
+    font-weight: bold;
+    color: red;
+
+
+
+}
+
+.linkCrecom {
+
+    margin-top: 33px;
+    margin-right: 50%;
+}
+
+
+.linkCrecomReg {
+
+    margin-top: 33px;
+    margin-right: 0%;
+
+}
+
+
+
+
+.imgForm {
+
+    margin-top: -310px;
+    margin-left: 333px;
+    transition: 0.3s;
+
+    color: white;
+}
+
+
+.imgForm img {
+
+    width: 333px;
+    height: 395px;
+    padding-top: -10px;
+}
+
+.imgForm h4 {
+
+    margin-top: -87%;
+    font-size: 33px;
+    font-weight: bold;
+
+
+}
+
+.imgForm p {
+
+    margin-top: 10px;
+}
+
+
+
+#formEditarPerfil {
+
+
+    width: 570px;
+    height: 480px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -1%;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    padding-top: 2%;
+}
+
+
+
+#formEditarPerfil input {
+
+    outline: none;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+
+
+
+.tituloEditar {
+
+    margin-top: -5%;
+
+    text-align: center;
+    height: 50px;
+
+}
+
+.tituloEditar h1 {
+
+
+
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+
+.containerInputsEditar {
+
+
+    margin-top: 8%;
+
+}
+
+.lblUsuario {
+
+    margin-right: 21%;
+}
+
+.lblNombreEditar {
+
+
+    margin-right: 34%;
+
+
+}
+
+.lblCorreoEditar {
+
+
+    margin-right: 36%;
+
+}
+
+.lblApellidoEditar {
+
+
+    margin-right: 33%;
+
+
+}
+
+.lblContraseniaEditar {
+
+
+    margin-right: 27%;
+
+}
+
+
+.lblCI {
+
+    margin-right: 43%;
+}
+
+
+.lblNumFuncio {
+
+    margin-right: 10%;
+}
+
+
+
+.inputIzqEditar {
+
+
+    margin-top: 27px;
+    margin-right: 40%;
+
+}
+
+
+.inputIzqEditar input {
+
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+.inputDerEditar {
+
+
+    margin-top: -157px;
+    margin-left: 40%;
+
+
+}
+
+.inputFuncio {
+
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+.inputDerEditar input {
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+
+.inputDerEditar input:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+.inputIzqEditar input:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+
+.inputUsuarioEditar {
+
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217);
+
+}
+
+
+.inputUsuarioEditar:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+.guardarCambios {
+
+    background-color: #2bc48a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 130px;
+    margin-left: 60%;
+
+}
+
+.guardarCambios:hover {
+
+    background-color: #29a072;
+
+}
+
+
+.containerDatosPerfil {
+
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+    height: 600px;
+
+}
+
+.containerUsuario {
+    margin-top: -38%;
+    margin-left: 8%;
+    padding-top: 30px;
+    text-align: center;
+    width: 200px;
+    height: 134px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+
+
+}
+
+.containerUsuario img {
+
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    border-radius: 30px;
+}
+
+
+.containerUsuario a {
+
+    font-weight: bold;
+}
+
+
+#avisoDatosExistentes {
+
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 2%;
+    width: 580px;
+    padding-top: 10px;
+    height: 42px;
+    background-color: rgba(252, 45, 45, 0.849);
+    border-radius: 10px;
+    visibility: hidden;
+
+}
+
+.containerInfo {
+
+    margin-right: 87%;
+    font-size: 15px;
+    margin-top: -4px;
+    display: flex;
+
+}
+
+.containerInfo a {
+
+    padding-left: 6px;
+    color: white
+}
+
+.containerInfo img {
+
+    padding-left: 10px;
+}
+
+
+#msjAviso {
+
+    font-size: 16px;
+    margin-right: 65%;
+    margin-top: 1%;
+}
+
+.menuOpcionesPaquete nav {
+
+    background-color: white;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    text-align: center;
+    height: 40px;
+    color: rgb(123, 207, 240);
+
+}
+
+.menuOpcionesPaquete li {
+
+    list-style: none;
+    margin-top: 0%;
+    margin-left: 0px;
+    padding-bottom: 5px;
+    display: inline-block;
+    width: 80px;
+    transition: all 3ms;
+
+}
+
+.menuOpcionesPaquete a {
+
+    color: rgb(123, 207, 240);
+}
+
+.menuOpcionesPaquete li:hover {
+    transition: all 3ms;
+    border-bottom: 2px solid #57e4ee;
+}
+
+
+input[type="checkbox"] {
+
+    width: 14px;
+    height: 14px;
+}
+
+
+#formPaquetes input[type="submit"] {
+
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(38, 38, 218);
+    margin-left: 62%;
+    margin-bottom: 1%;
+
+
+
+}
+
+#formPaquetes input[type="submit"]:hover {
+
+    background-color: rgb(8, 8, 129);
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    header {
+
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    header h1 {
+
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        width: 600px;
+
+    }
+
+    header img {
+
+        margin-right: -10px;
+        width: 24px;
+    }
+
+    #menuPerfilAlmacen {
+
+        margin-top: -5%;
+        margin-left: 56%;
+        width: 100px;
+        height: 100px;
+    }
+
+    #menuPerfilAlmacen img {
+
+
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 20px;
+    }
+
+
+    #menuPerfilAlmacen h4 {
+
+        font-size: 8px;
+        margin-left: 36px;
+        margin-top: -23px;
+    }
+
+
+
+    #menuPerfilAlmacen button {
+
+
+        font-size: 9px;
+        width: 60px;
+        height: 20px;
+        border: none;
+        margin-left: 30px;
+        margin-top: 10px;
+
+    }
+
+    #menuPerfilAlmacen button:hover {
+
+        background-color: #239167;
+    }
+
+
+    .cerrarSesionAlmacen {
+
+        margin-top: -8%;
+
+    }
+
+    .cerrarSesionAlmacen a {
+
+        position: absolute;
+        margin-top: 14px;
+        margin-left: 7px;
+        font-size: 10px;
+        text-decoration: none;
+        color: #5c5c5c;
+
+    }
+
+
+    .containerOpciones {
+
+        margin: auto;
+        margin-top: 0%;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+
+    .containerOpciones h2 {
+
+        font-size: 14px;
+    }
+
+    .boxOpcion1 {
+
+
+        width: 120px;
+        height: 160px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 10%;
+
+
+    }
+
+
+    .boxOpcion2 {
+
+
+        width: 120px;
+        height: 160px;
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10%;
+        display: block;
+
+    }
+
+
+
+    .containerOpciones img {
+
+        padding-top: 18%;
+        width: 40px;
+    }
+
+    .containerOpciones button {
+
+        width: 50px;
+        height: 25px;
+        margin-top: 14%;
+
+
+    }
+
+
+
+
+    .menuOpcionesPaquete nav {
+
+
+        text-align: center;
+        height: 30px;
+
+    }
+
+    .menuOpcionesPaquete li {
+
+        list-style: none;
+        margin: auto;
+        margin-top: -1%;
+        padding-bottom: 5px;
+        display: inline-block;
+        width: 60px;
+        font-size: 11px;
+        transition: all 3ms;
+
+    }
+
+    .menuOpcionesPaquete img {
+
+        width: 20px;
+    }
+
+    #containerTablePedidos {
+
+        width: 255px;
+        margin-top: 10%;
+    }
+
+    #containerTablePedidos h1 {
+
+        font-size: 16px;
+    }
+
+
+
+    #containerTablePedidos table {
+
+
+        width: 160px;
+        font-size: 9px;
+    }
+
+
+    #containerBuscador {
+
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+
+    #containerBuscador input {
+
+        width: 100px;
+        margin-left: 0px;
+    }
+
+    #imgBuscar {
+
+        margin-left: 20px;
+        margin-top: -23px;
+
+    }
+
+
+    #agregarPaqueteAlLote img {
+
+
+        width: 25px;
+    }
+
+    #imgTablePedidos img {
+
+
+        width: 50px;
+    }
+
+
+
+    #formPaquetes input[type="submit"] {
+
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: 57%;
+        margin-bottom: 1%;
+
+
+
+    }
+
+
+    #formAgregar {
+
+
+        height: 330px;
+        width: 230px;
+        box-shadow: 2px 2px 2px grey;
+        padding-top: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 6%;
+    }
+
+
+
+
+    #formAgregar select {
+
+
+
+        margin-top: 20px;
+        width: 100px;
+        font-size: 12px;
+
+    }
+
+
+    #formAgregar label {
+
+        color: rgb(109, 109, 109);
+        font-size: 12px;
+        margin: auto;
+        width: 20px;
+    }
+
+
+    #formAgregar input[type=submit] {
+
+
+        width: 100px;
+        height: 25px;
+        margin-top: 40px;
+        font-size: 11px;
+
+    }
+
+    #formAgregar input {
+
+
+        margin-top: 10px;
+        margin-left: 3px;
+        align-items: center;
+        width: 200px;
+
+    }
+
+
+
+    #formAgregar input[type=number] {
+
+        width: 70px;
+
+    }
+
+    .titulo {
+
+        display: flex;
+        margin: auto;
+    }
+
+    .titulo h2 {
+
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 60px;
+        font-size: 16px;
+    }
+
+    .titulo img {
+
+        margin-left: 20px;
+        width: 30px;
+
+    }
+
+    #containerTable {
+
+        width: 250px;
+        margin-top: 10%;
+    }
+
+    #containerTable h1 {
+
+        font-size: 20px;
+
+    }
+
+    #containerTable table {
+
+        width: 230px;
+        font-size: 11px;
+    }
+
+
+    #containerTable #containerBuscador {
+
+        margin-top: 20px;
+
+    }
+
+    #imgBuscarLote {
+
+        margin-left: 20px;
+    }
+
+    #containerTable table img {
+
+        width: 26px;
+    }
+
+    #imgLotes {
+
+        width: 50px;
+    }
+
+
+    #containerTableLote {
+
+        width: 250px;
+        margin-top: 10%;
+    }
+
+    #iconoTableDetalles {
+
+        width: 36px;
+        margin-top: -10px;
+    }
+
+
+    #containerTableLote h1 {
+
+        margin-top: 10%;
+    }
+
+    #containerTableLote table {
+
+        width: 230px;
+        font-size: 11px;
+    }
+
+
+
+
+    #formModificar {
+
+       
+        height: 240px;
+        width: 200px;
+        margin-top: 17%;
+       
+
+
+    }
+
+    #formModificar input[type=submit] {
+
+       
+        width: 120px;
+        height: 25px;
+        margin-top: 4px;
+       
+    }
+
+    #formModificar input {
+
+      
+        margin-top: 16px;
+        margin-left: 3px;
+        width: 200px;
+    
+    }
+
+
+
+    #formModificar img {
+
+        display: flex;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: -10px;
+        width: 25px;
+        height: 35px;
+
+    }
+
+
+
+
+    #formModificar label {
+
+        color: rgb(109, 109, 109);
+        font-size: 13px;
+        margin: auto;
+    
+    }
+
+    #formModificar h2 {
+        margin-right: 58px;
+        font-size: 18px;
+    }
+
+    #formModificar h2 {
+
+        font-size: 15px;
+    }
+
+    #menuPerfilEditar {
+
+        margin-top: -12%;
+        margin-left: 56%;
+        width: 100px;
+        height: 100px;
+    }
+
+
+    #menuPerfilEditar img {
+
+
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 20px;
+    }
+
+
+    #menuPerfilEditar  h4 {
+
+        font-size: 8px;
+        margin-left: 36px;
+        margin-top: -23px;
+    }
+
+
+
+    #menuPerfilEditar  button {
+
+
+        font-size: 9px;
+        width: 60px;
+        height: 20px;
+        border: none;
+        margin-left: 30px;
+        margin-top: 10px;
+
+    }
+
+    #menuPerfilEditar  button:hover {
+
+        background-color: #239167;
+    }
+
+
+    .cerrarSesionEditar  {
+
+        margin-top: -8%;
+
+    }
+
+    .cerrarSesionEditar  a {
+
+        position: absolute;
+        margin-top: 14px;
+        margin-left: 7px;
+        font-size: 10px;
+        text-decoration: none;
+        color: #5c5c5c;
+
+    }
+
+
+
+
+    .containerDatosPerfil {
+
+        margin: auto;
+        width: 250px;
+
+    }
+
+    .containerUsuario {
+
+
+
+        margin-top: -250%;
+        margin-left: 0%;
+        width: 130px;
+        height: 75px;
+    }
+
+    .containerUsuario a {
+
+        font-size: 12px;
+        
+        width: 100px;
+        margin: auto;
+        margin-top: -30px;
+        padding-top: -20px;
+
+
+    }
+
+    .containerUsuario img {
+
+        width: 30px;
+        margin-top: -20px;
+
+    }
+
+    #formEditarPerfil {
+
+        width: 250px;
+        height: 450px;
+        margin: auto;
+        margin-top: -3%;
+
+    }
+
+    #formEditarPerfil h1 {
+
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #formEditarPerfil input {
+
+        width: 60%;
+        font-size: 12px;
+
+    }
+
+    .containerInputsEditar {
+
+        margin-top: -20px;
+    }
+
+    #formEditarPerfil label {
+
+
+        font-size: 13px;
+
+    }
+
+    #avisoDatosExistentes {
+
+
+        width: 250px;
+        margin: auto;
+        margin-top: 37%;
+        height: 30px;
+
+    }
+
+    #avisoDatosExistentes a {
+
+        font-size: 13px;
+
+    }
+
+    #avisoDatosExistentes img {
+
+        width: 13px;
+    }
+
+
+    #avisoDatosExistentes h2 {
+
+        font-size: 12px;
+        margin-left: 17px;
+        width: 130px;
+
+    }
+
+
+    #formEditarPerfil input[type="submit"] {
+
+        width: 60%;
+        font-size: 12px;
+        margin-left: 0%;
+
+    }
+
+    .lblUsuario {
+
+        margin-left: -22%;
+
+    }
+
+    
+
+#menuPerfilAgregarLote {
+
+    margin-top: -5%;
+    margin-left: 56%;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+#menuPerfilAgregarLote img {
+
+
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 20px;
+}
+
+
+#menuPerfilAgregarLote h4 {
+
+    font-size: 8px;
+    margin-left: 36px;
+    margin-top: -23px;
+}
+
+
+
+#menuPerfilAgregarLote button {
+
+
+    font-size: 9px;
+    width: 60px;
+    height: 20px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+#menuPerfilAgregarLote button:hover {
+
+    background-color: #239167;
+}
+
+
+.cerrarSesionAgregarLote {
+
+    margin-top: -8%;
+
+}
+
+.cerrarSesionAgregarLote a {
+
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 7px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+}

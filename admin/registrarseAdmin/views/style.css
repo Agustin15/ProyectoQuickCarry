@@ -1,0 +1,2497 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+.headerFormAdmin {
+    background-color: #127262;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.headerFormAdmin h1 {
+    font-size: 40px;
+    margin: auto;
+
+}
+
+/*--------------------------------------------------------------------Menu----------------------------------------------------------*/
+.navFormAdmin {
+    background-color: #b1b1b1;
+    padding: 15px;
+    text-align: center;
+}
+
+.navFormAdmin a {
+    text-decoration: none;
+    margin: 10px;
+    color: #333;
+}
+
+
+
+#menuPerfilAlmacen {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilAlmacen.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilAlmacen img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilAlmacen h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+    
+
+}
+
+#menuPerfilAlmacen button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilAlmacen button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionAlmacen {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionAlmacen a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+#menuPerfil {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -2%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+}
+
+
+
+#menuPerfil.active {
+
+    visibility: visible;
+
+}
+
+
+
+
+
+
+#menuPerfil:hover {
+
+    cursor: pointer;
+}
+
+#menuPerfil img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfil h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    width: 10px;
+    font-size: 13px;
+
+}
+
+#menuPerfil button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfil button:hover {
+
+    background-color: #239167;
+}
+
+
+.cerrarSesion {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesion a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+#menuPerfilModificarLote {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 83%;
+
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+
+}
+
+
+#menuPerfilModificarLote.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilModificarLote img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilModificarLote h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilModificarLote button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilModificarLote button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionModificarLote {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionModificarLote a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+#menuPerfilAgregarLote {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+}
+
+
+#menuPerfilAgregarLote.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilAgregarLote img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilAgregarLote h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilAgregarLote button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilAgregarLote button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionAgregarLote {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionAgregarLote a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+
+#menuPerfilLote2 {
+
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: -1%;
+    margin-left: 83%;
+    color: rgb(71, 71, 71);
+    border-radius: 4px;
+    visibility: hidden;
+
+}
+
+
+#menuPerfilLote2.active {
+
+    visibility: visible;
+
+}
+
+
+#menuPerfilLote2 img {
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#menuPerfilLote2 h4 {
+
+    margin-left: 90px;
+    margin-top: -60px;
+    font-size: 13px;
+
+}
+
+#menuPerfilLote2 button {
+    background-color: #2bc48a;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+#menuPerfilLote2 button:hover {
+
+    background-color: #239167;
+}
+
+
+
+
+.cerrarSesionLote2 {
+
+    margin-top: 10%;
+
+
+
+}
+
+.cerrarSesionLote2 a {
+
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+
+
+
+header {
+    background-color: #464545;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.userImg:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+header h1 {
+
+    margin-left: 0%;
+}
+
+header h2 {
+
+    margin:auto;
+    font-size: 30px;
+}
+
+
+
+
+.imgFormReg {
+
+    margin-top: -383px;
+    margin-left: 463px;
+    transition: 0.3s;
+    color: white;
+}
+
+.imgFormReg img {
+
+    width: 470px;
+    height: 424px;
+    padding-top: -10px;
+}
+
+.imgFormReg h4 {
+
+    margin-top: -60%;
+    font-size: 33px;
+    font-weight: bold;
+
+
+}
+
+.imgFormReg p {
+
+    margin-top: 30px;
+}
+
+
+.containerForm {
+
+
+    margin-left: -50%;
+
+
+}
+
+#formRegistroAdmin {
+
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 930px;
+    height: 420px;
+    margin-top: 7%;
+
+}
+
+
+#formRegistroAdmin h1 {
+
+
+    font-size: 25px;
+    padding-top: 10px;
+    height: 40px;
+    margin-top: -17px;
+
+
+}
+
+#formRegistroAdmin input {
+
+    margin-top: 30px;
+    display: inline-block;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid;
+    outline: none;
+    transition: 0.2s;
+    height: 30px;
+
+
+}
+
+#formRegistroAdmin input:hover {
+
+
+    border-bottom: 1px solid rgb(23, 196, 219);
+
+
+}
+
+
+
+#botonRegistrarse {
+
+    width: 210px;
+    height: 30px;
+    background-color: rgb(23, 196, 219);
+    color: white;
+    cursor: pointer;
+    margin-left: -51%;
+
+
+}
+
+#botonRegistrarse:hover {
+
+    background-color: rgb(19, 160, 179);
+
+}
+
+#inputContrasenia {
+
+    margin-left: -52%;
+}
+
+.estadoPassword {
+
+    margin-left: -15%;
+    margin-top: -33px;
+    cursor: pointer;
+
+}
+
+.inputCol1 {
+
+    margin-right: 30px;
+}
+
+
+#containerQuick {
+
+
+   
+   margin: auto;
+    margin-top: -10%;
+    box-shadow:
+        0 0 0 2px #31c9dd,
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 550px;
+    height: 340px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#containerQuick button {
+
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 0px;
+    background-color: #31c9dd;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 35px;
+    margin-top: 23px;
+    margin-left: -20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow:
+        0 0 0 2px #31c9dd,
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+#btnClientes {
+
+    margin-top: -54px;
+    transition: 0.3s;
+
+}
+
+#btnFuncionarios {
+
+    margin-top: -20px;
+}
+
+#btnAlmacenes {
+
+    margin-top: 25px;
+    transition: 0.3s;
+
+}
+
+
+#btnCamiones {
+
+    margin-top: 46px;
+    transition: 0.3s;
+
+}
+
+
+#btnCamionetas {
+
+    margin-top: 20px;
+}
+
+#opciones1 {
+
+    margin-left: 11%;
+
+}
+
+
+#opciones2 {
+
+
+    margin-top: -43%;
+    margin-left: 58%;
+
+}
+
+
+
+#containerQuick button:hover {
+
+
+    background-color: #26a4b4;
+
+}
+
+
+#containerQuick h2 {
+
+    color: rgb(0, 0, 0);
+    height: 30px;
+    padding-top: 2%;
+
+
+}
+
+
+#containerQuick nav {
+
+
+    list-style: none;
+    background-color: rgb(29, 119, 204);
+    width: 160px;
+    margin-left: 0px;
+    visibility: hidden;
+    color: white;
+    transition: linear 0.2s;
+}
+
+#containerQuick nav li {
+
+    background-color: rgb(22, 85, 143);
+    border-bottom: 1px solid rgb(14, 59, 100);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width: 160px;
+    height: 15px;
+    text-align: center;
+    padding-top: 4px;
+    transition: linear 0.2s;
+
+
+}
+
+
+
+.image-button {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.image-button img {
+
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.image-button a {
+
+    margin-top: 5px;
+}
+
+#containerQuick a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+
+#containerQuick nav li:hover {
+
+    background-color: rgb(24, 100, 172);
+    transition: linear 0.2s;
+
+
+}
+
+
+
+
+
+
+#eliminar {
+
+    background: rgb(255, 12, 12);
+    border-radius: 5px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 20px;
+    margin-top: -8px;
+
+}
+
+#eliminar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#eliminar:hover {
+
+    background-color: rgb(185, 4, 4);
+}
+
+
+.registrado {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 200px;
+    font-size: 23px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12%;
+    padding-top: 35px;
+}
+
+.registrado a {
+
+    padding-top: 30px;
+
+}
+
+
+
+.iconoMsj {
+
+    margin-top: -7%;
+
+
+}
+
+
+.botonRegistrado {
+
+    margin-top: 36px;
+    border-radius: 4px;
+    background-color: rgba(22, 223, 22, 0.76);
+    width: 130px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+
+}
+
+.botonRegistrado:hover {
+
+    background-color: green;
+
+}
+
+
+.avisoCamposRegistrarse {
+
+    margin-top: -2%;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 25%;
+    color: red;
+
+
+
+
+}
+
+
+.avisoCamposRegistrarse h4 {
+
+    margin: auto;
+    font-weight: bold;
+    color: red;
+
+
+
+}
+
+#estadoPasswordReg {
+
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+/*estilo formulario del login del admin*/
+
+
+#formLoginAdmin {
+
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    border: none;
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    width: 664px;
+    height: 390px;
+    border-radius: 7px;
+    text-align: center;
+
+
+}
+
+
+.inputs h1 {
+
+    font-size: 23px;
+    margin-right: 340px;
+
+}
+
+
+.inputs input {
+
+
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    height: 30px;
+    padding-left: 40px;
+    margin-right: 50%;
+    width: 180px;
+    background: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+
+}
+
+.inputs input:hover {
+
+    border-bottom: 1px solid rgb(23, 196, 219);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.inputs input::placeholder {
+
+    color: rgb(0, 0, 0);
+}
+
+
+
+.inputs img {
+
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 6px;
+
+}
+
+#botonEnviar {
+
+    width: 100px;
+    height: 30px;
+    background-color: rgb(23, 196, 219);
+    color: white;
+    margin-top: 60px;
+    margin-right: 350px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+
+
+}
+
+#botonEnviar:hover {
+
+    background-color: rgb(39, 128, 163);
+
+}
+
+
+
+
+
+.avisoCamposLogin {
+
+    margin-top: -3%;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 29%;
+    color: red;
+
+
+
+
+}
+
+
+.avisoCamposLogin h4 {
+
+    margin: auto;
+    font-weight: bold;
+    color: red;
+
+
+
+}
+
+
+
+
+.linkAdmin {
+
+    margin-top: 33px;
+    margin-right: 50%;
+}
+
+
+.linkAdminReg {
+
+    margin-top: 33px;
+    margin-right: 50%;
+}
+
+
+.imgForm {
+
+    margin-top: -325px;
+    margin-left: 333px;
+    transition: 0.3s;
+
+    color: white;
+}
+
+.imgForm img {
+
+    width: 333px;
+    height: 395px;
+    padding-top: -10px;
+}
+
+.imgForm h4 {
+
+    margin-top: -82%;
+    font-size: 33px;
+    font-weight: bold;
+
+
+}
+
+.imgForm p {
+
+    margin-top: 22px;
+}
+
+
+
+/*estilo para el backoffice de los lotes*/
+
+
+.titulo h2 {
+
+    display: inline-block;
+    padding-top: -10px;
+    margin-left: 35px;
+}
+
+.titulo img {
+
+    margin-left: 20px;
+
+}
+
+
+
+
+#formModificar {
+
+    color: black;
+    background-color: white;
+
+    height: 200px;
+    width: 400px;
+    box-shadow: 2px 2px 2px grey;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: -6%;
+    border-radius: 10px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+
+
+}
+
+#formModificar input[type=submit] {
+
+    background-color: rgb(86, 243, 24);
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#formModificar input {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 12px;
+    color: black;
+    margin-left: 3px;
+    width: 200px;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    transition: 0.2s;
+
+
+}
+
+#formModificar input:hover {
+
+    border-bottom: 1px solid rgb(86, 243, 24);
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+
+#formModificar input[type=submit]:hover {
+
+    background-color: rgb(58, 190, 6);
+
+}
+
+#formModificar h2 {
+
+
+    margin-left: -32px;
+
+}
+
+#formModificar img {
+
+    display: flex;
+    margin-left: 340px;
+    margin-top: -40px;
+
+}
+
+
+
+#formModificar input[type=number] {
+
+    width: 200px;
+
+}
+
+
+
+#formModificar select {
+
+    width: 200px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-top: 20px;
+
+}
+
+
+#formModificar label {
+
+    color: rgb(109, 109, 109);
+    font-size: 13px;
+    margin-left: -72px;
+}
+
+
+#formAgregar {
+
+    color: black;
+    background-color: white;
+
+    height: 240px;
+    width: 400px;
+    box-shadow: 2px 2px 2px grey;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: -6%;
+    border-radius: 10px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(68, 68, 68, 0.3);
+
+}
+
+
+
+
+#formAgregar select {
+
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-top: 20px;
+    width: 200px;
+
+}
+
+
+#formAgregar label {
+
+    color: rgb(109, 109, 109);
+    font-size: 13px;
+    margin-left: -72px;
+}
+
+
+#formAgregar input[type=submit] {
+
+    background-color: rgb(24, 93, 243);
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 33px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#formAgregar input {
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 30px;
+    color: black;
+    display: inline;
+    margin-left: 3px;
+    align-items: center;
+    border-top: none;
+    width: 200px;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    transition: 0.2s;
+
+}
+
+
+
+#formAgregar input[type=number] {
+
+    width: 200px;
+
+}
+
+#formAgregar input:hover {
+
+    border-bottom: 1px solid rgb(24, 93, 243);
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+
+#formAgregar input[type=submit]:hover {
+
+    background-color: rgb(35, 35, 212);
+
+}
+
+
+#nomProducto {
+
+    margin-left: 0%;
+    font-weight: bold;
+
+
+}
+
+
+
+.msjActualizacion {
+
+    margin: auto;
+    border-radius: 6px;
+    width: 330px;
+    height: 140px;
+
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -2%;
+    padding-top: 35px;
+}
+
+
+
+.iconoMsj {
+
+    margin-top: -7%;
+
+
+}
+
+
+.volverCorrecto {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(23, 214, 81);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    height: 30px;
+    border: none;
+
+}
+
+.volverCorrecto:hover {
+
+    background-color: rgb(20, 175, 66);
+}
+
+
+.volverError {
+
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: rgb(231, 32, 32);
+    color: white;
+    text-decoration: none;
+    width: 140px;
+    border: none;
+    height: 30px;
+
+}
+
+.volverError:hover {
+
+    background-color: rgb(170, 17, 17);
+}
+
+.msjEliminar {
+
+    background-color: white;
+    width: 300px;
+    border-radius: 6px;
+
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 0%;
+    height: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+}
+
+.msj {
+
+    padding-top: 20px;
+
+}
+
+
+table {
+
+    margin: auto;
+    margin-top: 13px;
+    text-align: center;
+    border: 1px solid gray;
+    width: 580px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 2rem;
+    height: 100px;
+
+
+}
+
+
+
+.advertenciaPedidos {
+
+
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.advertenciaPedidos img {
+
+    opacity: 30%;
+    margin-right: 46%;
+    width: 60px;
+}
+
+.advertenciaPedidos h2 {
+
+    opacity: 30%;
+
+    font-size: 20px;
+}
+
+
+
+#headTable {
+
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(26, 165, 165);
+    height: 30px;
+    width: 400px;
+    margin-top: -35px;
+
+
+
+}
+
+td {
+
+    border-right: 1px solid grey;
+    height: 40px;
+}
+
+tr:hover {
+
+    background-color: rgb(236, 236, 236);
+}
+
+
+
+#eliminar {
+
+    background: rgb(255, 12, 12);
+    border-radius: 5px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 2px 2px 2px grey;
+    margin-left: 16px;
+    margin-top: -8px;
+
+}
+
+#eliminar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#eliminar:hover {
+
+    background-color: rgb(185, 4, 4);
+}
+
+
+
+#modificar {
+
+
+    padding-top: 7px;
+    width: 80px;
+    height: 24px;
+    background-color: rgb(14, 241, 14);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 105px;
+    margin-top: -31px;
+}
+
+#modificar a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#modificar:hover {
+
+    background-color: rgb(4, 165, 4);
+}
+
+
+#containerTable img {
+
+    margin: auto;
+    display: flex;
+    margin-top: -20px;
+
+}
+
+#masInfo {
+
+    padding-top: 7px;
+    width: 80px;
+    height: 24px;
+    background-color: rgb(14, 93, 241);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 234px;
+    margin-top: -31px;
+
+}
+
+#masInfo a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+
+
+#containerTable {
+
+
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow:
+
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    width: 650px;
+    border-radius: 10px;
+    margin-top: -8%;
+    height: 500px;
+    border: 1px solid rgb(206, 226, 255);
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+
+}
+
+#verPaquetes button {
+
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(209, 209, 209);
+    background-color: #299ace;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+
+
+#buscador {
+
+
+    border-radius: 4px;
+    border: 1px solid grey;
+    height: 25px;
+    width: 150px;
+    outline: none;
+    padding-left: 35px;
+
+}
+
+
+#containerBuscador {
+
+    margin-right: 56%;
+    margin-top: 2%;
+}
+
+#imgBuscar {
+
+    margin-right: 510px;
+    margin-top: -23px;
+
+}
+
+#imgBuscar img {
+
+    width: 20px;
+}
+
+
+#verPaquetes img {
+
+    width: 30px;
+    margin: auto;
+}
+
+#containerTable h1 {
+
+    font-size: 22px;
+    margin: auto;
+    margin-top: -2%;
+
+}
+
+#verInfoPaquete {
+
+    margin: auto;
+}
+
+#verInfoPaquete img {
+
+    margin: auto;
+    width: 30px;
+}
+
+
+.imgFecha {
+
+    margin-left: 53%;
+    margin-top: -7%;
+}
+
+
+
+.imgChofer {
+
+    margin-left: 57%;
+    margin-top: -7%;
+}
+
+.imgPaquete {
+
+    margin-left: 33%;
+    margin-top: -7%;
+}
+
+.imgCliente {
+
+    margin-left: 28%;
+    margin-top: -7%;
+}
+
+#containerDetalles {
+
+    width: 400px;
+    height: 370px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: -6%;
+    text-align: center;
+}
+
+#containerDetalles h2 {
+
+
+    margin: auto;
+    font-size: 20px;
+    color: #7c7c7c;
+    opacity: 50%;
+}
+
+
+
+#containerTableLote {
+
+
+
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px gray;
+    width: 630px;
+    border-radius: 10px;
+    margin-top: -10%;
+    height: 400px;
+    overflow-y: scroll;
+    text-align: center;
+    border: 1px solid gray;
+
+}
+
+
+.iconoLote {
+
+    margin-top: 2%;
+    margin-left: 48%;
+}
+
+
+
+#agregar {
+
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    width: 190px;
+    height: 30px;
+    background: rgb(76, 76, 247);
+    color: white;
+    font-weight: bold;
+
+}
+
+#agregar:hover {
+
+    background-color: rgb(3, 3, 129);
+
+}
+
+
+
+#formEditarPerfil {
+
+
+    width: 570px;
+    height: 330px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 0%;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    padding-top: 2%;
+}
+
+
+#avisoDatosExistentes {
+
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: -3%;
+    width: 580px;
+    padding-top: 10px;
+    height: 42px;
+    background-color: rgba(252, 45, 45, 0.849);
+    border-radius: 10px;
+    visibility: hidden;
+
+}
+
+.containerInfo {
+
+    margin-right: 87%;
+    font-size: 15px;
+    margin-top: -4px;
+    display: flex;
+
+}
+
+.containerInfo a {
+
+    padding-left: 6px;
+    color: white
+}
+
+.containerInfo img {
+
+    padding-left: 10px;
+}
+
+
+#msjAviso {
+
+    font-size: 16px;
+    margin-right: 65%;
+    margin-top: 1%;
+}
+
+
+#formEditarPerfil input {
+
+    outline: none;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+
+
+
+.tituloEditar {
+
+    margin-top: -5%;
+
+    text-align: center;
+    height: 50px;
+
+}
+
+.tituloEditar h1 {
+
+
+
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+
+.containerInputsEditar {
+
+
+    margin-top: 8%;
+
+}
+
+.lblUsuario {
+
+    margin-right: 21%;
+}
+
+.lblNombreEditar {
+
+
+    margin-right: 34%;
+
+
+}
+
+.lblCorreoEditar {
+
+
+    margin-right: 36%;
+
+}
+
+.lblApellidoEditar {
+
+
+    margin-right: 33%;
+
+
+}
+
+.lblContraseniaEditar {
+
+
+    margin-right: 27%;
+
+}
+
+
+
+.inputIzqEditar {
+
+
+    margin-top: 27px;
+    margin-right: 40%;
+
+}
+
+
+.inputIzqEditar input {
+
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+.inputDerEditar {
+
+
+    margin-top: -138px;
+    margin-left: 40%;
+
+
+}
+
+.inputDerEditar input {
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217)
+}
+
+
+.inputDerEditar input:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+.inputIzqEditar input:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+
+.inputUsuarioEditar {
+
+    color: #b1b1b1;
+    border-radius: 4px;
+    border: 1px solid rgb(218, 217, 217);
+
+}
+
+
+.inputUsuarioEditar:focus {
+
+    border: 1px solid #2bc48a;
+    color: black;
+
+}
+
+
+.guardarCambios {
+
+    background-color: #2bc48a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 130px;
+    margin-left: 60%;
+
+}
+
+.guardarCambios:hover {
+
+    background-color: #29a072;
+
+}
+
+.containerDatosPerfil {
+
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+    height: 600px;
+    margin-top: -10%;
+
+}
+
+.containerUsuario {
+
+
+    margin-top: -28%;
+    margin-left: 8%;
+    padding-top: 30px;
+    text-align: center;
+    width: 200px;
+    height: 114px;
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+
+}
+
+.containerUsuario a {
+
+    font-weight: bold;
+}
+
+
+
+.containerUsuario img {
+
+    box-shadow:
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(35, 95, 119, 0.3);
+    border-radius: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+body{
+
+width:100%;
+overflow-x:hidden;
+}
+
+
+    header {
+
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    header h2 {
+
+        font-size: 20px;
+        text-align: center;
+        margin:auto;
+        width: 600px;
+
+    }
+
+
+ header h1 {
+
+        font-size: 16px;
+        text-align: center;
+        margin:auto;
+        width: 600px;
+
+    }
+
+    header img{
+
+        margin-left:-4px;
+        width: 24px;
+    }
+
+    
+
+    #containerQuick {
+
+        margin: auto;
+        width: 85%;
+        margin-top: -24%;
+        height: 300px;
+    }
+
+    #containerQuick button {
+
+
+        width: 100px;
+        height: 27px;
+
+        font-size: 14px;
+        font-weight: bold;
+       
+    }
+
+    #menuPerfil{
+
+        margin-top: -12%;
+        margin-left: 54%;
+        width: 100px;
+        height: 100px;
+    }
+
+    #menuPerfil img{
+
+        width: 20px;
+        margin-left: 5px;
+        margin-top: 6px;
+    }
+
+
+    #menuPerfil h4{
+
+        font-size: 8px;
+        margin-left: 30px;
+        margin-top: -23px;
+    }
+   
+
+  
+#menuPerfil button {
+  
+
+    font-size: 9px;
+    width: 60px;
+    height: 20px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+#menuPerfil button:hover {
+
+    background-color: #239167;
+}
+
+
+.cerrarSesion {
+
+    margin-top: -1%;
+
+}
+
+.cerrarSesion a {
+
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
+
+}
+
+
+#opciones1 {
+
+    margin-left: 13%;
+
+}
+
+
+#opciones2 {
+
+
+    margin-top: -213px;
+    margin-left: 63%;
+
+}
+
+
+
+.image-button img {
+
+    margin-left: 5px;
+    margin-top: -3px;
+ 
+}
+
+.image-button a {
+
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+
+#containerQuick nav {
+ 
+    width: 80px;
+    margin-left: -10px; 
+    margin-top: 3px;
+}
+
+#containerQuick nav li {
+
+   
+    font-size: 10px;
+    font-weight: bold;
+    width: 80px;
+    height: 13px;
+    text-align: center;
+    padding-top: 4px;
+   
+
+
+}
+
+    
+    #menuPerfilAlmacen {
+    
+        margin-top: -5%;
+        margin-left: 55%;
+        width: 100px;
+        height: 100px;
+
+    }
+    
+    #menuPerfilAlmacen img {
+    
+        
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 20px;
+    }
+    
+    
+    #menuPerfilAlmacen h4 {
+    
+        font-size: 8px;
+        margin-left: 36px;
+        margin-top: -23px;
+    }
+    
+    
+    
+    #menuPerfilAlmacen button {
+    
+    
+        font-size: 9px;
+        width: 60px;
+        height: 20px;
+        border: none;
+        margin-left: 30px;
+        margin-top: 10px;
+    
+    }
+    
+    #menuPerfilAlmacen button:hover {
+    
+        background-color: #239167;
+    }
+    
+    
+    .cerrarSesionAlmacen {
+    
+        margin-top: -8%;
+    
+    }
+    
+    .cerrarSesionAlmacen a {
+    
+        position: absolute;
+        margin-top: 14px;
+        margin-left: 7px;
+        font-size: 10px;
+        text-decoration: none;
+        color: #5c5c5c;
+    
+    }
+    
+    
+    #containerTable {
+    
+        margin: auto;
+        width: 93%;
+        margin-top: 2%;
+        height: 400px;
+        text-align: center;
+    
+    }
+
+    #containerTable h1{
+
+        font-size: 20px;
+        margin: auto;
+        margin-top: -10px;
+    }
+
+      #containerTable img{
+
+        width: 40px;
+        margin: auto;
+        margin-top: -20px;
+    }
+    
+    
+    #tableAlmacen {
+    
+        margin: auto;
+        margin-top: 13px;
+        font-size: 12px;
+        text-align: center;
+        width: 210px;
+    
+    }
+
+    #tableAlmacen img{
+
+        width: 30px;
+    }
+    
+
+
+    
+    #tablePaquetesAlmacen {
+    
+        margin: auto;
+        margin-top: 13px;
+        font-size: 11px;
+        text-align: center;
+        width: 340px;
+    
+    }
+
+    
+    
+    #tablePaquetesAlmacen img {
+    
+    width: 30px;
+    margin-top: 4px;
+    
+    }
+
+
+    #headTable {
+    
+        box-shadow: 2px 2px 2px grey;
+        background-color: rgb(26, 165, 165);
+        height: 30px;
+    
+    }
+    
+  
+    
+    #agregar {
+    
+        margin-top: 0%;
+        margin-left: 92%;
+        width: 190px;
+        height: 30px;
+    
+    
+    }
+    
+    #agregar:hover {
+    
+        background-color: rgb(3, 3, 129);
+    
+    }
+    
+    
+    #containerBuscador {
+    
+        margin-left: 3%;
+        margin-top: 8%;
+    }
+    
+    #containerBuscador input{
+
+        width: 100px;
+    }
+    
+    #imgBuscar {
+    
+        margin-left:14px;
+        margin-top: -23px;
+    
+    }
+
+    #imgBuscar img{
+
+        width: 20px;
+    }
+    
+    #containerDetalles{
+
+        width: 80%;
+        height: 300px;
+        margin-top: 8%;
+    }
+
+
+    #containerDetalles h2{
+
+        font-size: 15px;
+    }
+    #containerDetalles img{
+
+        width: 20px;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+    
+    
+
+    .containerDatosPerfil{
+
+        margin: auto;
+        width: 250px;
+    }
+
+    .containerUsuario{
+
+        margin-left: 0%;
+        margin-top: -205%;
+        width: 100px;
+        height: 70px;
+    }
+
+    .containerUsuario a{
+
+        font-size: 12px;
+       
+    }
+    .containerUsuario img{
+
+        width: 30px;
+        
+    
+    }
+
+    #formEditarPerfil{
+
+        width: 250px;
+        margin:auto;
+        margin-top: -3%;
+        
+       
+    }
+
+    #formEditarPerfil h1{
+
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    #formEditarPerfil input {
+
+       width: 60%;
+       font-size: 12px;
+
+    }
+
+    .containerInputsEditar{
+
+        margin-top: -20px;
+    }
+
+    #formEditarPerfil label{
+
+        
+        font-size: 13px;
+ 
+     }
+    
+    #avisoDatosExistentes{
+
+        
+        width: 260px;
+        margin:auto;
+        margin-top: 16%;
+        height: 30px;
+        
+    }
+
+    #avisoDatosExistentes a{
+
+        font-size: 13px;
+    }
+
+    #avisoDatosExistentes img{
+
+        width: 13px;
+    }
+
+
+    #avisoDatosExistentes h2{
+
+        font-size: 12px;
+        margin-left: 27px;
+        width: 100px;
+    }
+
+    
+    #formEditarPerfil input[type="submit"] {
+
+        width: 60%;
+        font-size: 12px;
+        margin-left:0% ;
+ 
+     }
+ 
+ 
+
+    }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/LogoQuickCarry.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Iniciar sesion-Crecom </title>
+</head>
+
+<body>
+
+    <header class="headerFormCrecom">
+
+        <h1>Bienvenidos a Crecom </h1>
+
+    </header>
+
+    <nav>
+        <a href="../../../../../views/Index.html">Inicio</a>
+        <a href="../../../../../views/Index.html#IniciarSesion">Iniciar Sesion</a>
+        <a href="../../../../../views/Contacto.html">Contacto</a>
+        <a href="../../../../../views/SobreNosotros.html">Sobre Nosotros</a>
+        <a href="../../../../../cliente/views/index.php">Rastrear Paquete</a>
+    </nav>
+
+    <form id="formLoginCrecom" method="POST" action="apiAutenticacion.php">
+
+        <br>
+        <div class="inputs">
+            <h1>Iniciar sesion</h1>
+            <br><br>
+            <input type="hidden" value="login" name="opcion">
+
+            <img src="img/usuarioIcono.png" class="iconoUsuario" width="20px">
+            <input type="text" id="inputUsuario" placeholder="Usuario" name="usuario">
+            <br>
+            <br>
+            <br>
+            <img src="img/candado.png" class="iconoUsuario" width="20px">
+            <input placeholder="Contraseña" id="inputContrasenia" type="password" name="contrasenia">
+            <div class="estadoPassword">
+                <img src="img/ojoTachado.png" id="estadoPassword" width="22px" onclick="password()">
+            </div>
+
+        </div>
+        <br>
+
+        <input type="submit" id="botonEnviar" value="Sign In">
+     
+
+        <div class="imgForm">
+            <img src="img/formImg.PNG" width="300px">
+            <h4>Bienvenido a Crecom</h4>
+            <p>Ingrese sus datos para iniciar sesion como funcionario de la compañia Crecom</p>
+        </div>
+
+        <h4 id="avisoCampoLogin"></h4>
+
+
+    </form>
+
+
+
+
+    <script>
+
+        document.getElementById("estadoPassword").style.width = "22px";
+        function password() {
+
+            if (document.getElementById("inputContrasenia").type === "password") {
+
+                document.getElementById("estadoPassword").src = "img/ojoAbierto.png";
+                document.getElementById("inputContrasenia").type = "text";
+
+            } else {
+
+                document.getElementById("inputContrasenia").type = "password";
+                document.getElementById("estadoPassword").src = "img/ojoTachado.png";
+
+
+            }
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
