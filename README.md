@@ -9,6 +9,9 @@ Creado por Sebastian Cancela, Agustina Franco, Agustin Miranda, Juan Manuel Pere
 
 HomePage
 
-![1700250561948](https://github.com/Agustin15/ProyectoQuickCarry/assets/60082275/ccf67d62-b045-4d7a-98c5-dcff5961de4e)
+https://i.postimg.cc/vZf54Nbf/1700250561948.jpg
+
+Login
+https://i.postimg.cc/rpg0W6b0/1700250490676.jpg
 
 
