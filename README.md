@@ -9,8 +9,10 @@ Creado por Sebastian Cancela, Agustina Franco, Agustin Miranda, Juan Manuel Pere
 
 HomePage
 
-https://i.postimg.cc/vZf54Nbf/1700250561948.jpg
+![1700250561948](https://github.com/Agustin15/ProyectoQuickCarry/assets/60082275/88175329-7ff6-4085-b6cc-b3107c9a7fbb)
+
 
 Login
-https://postimg.cc/LqY8KWm2
+![1700250490676](https://github.com/Agustin15/ProyectoQuickCarry/assets/60082275/ba4d7e3b-b60a-4b19-ad17-45d785bd7268)
+
 
