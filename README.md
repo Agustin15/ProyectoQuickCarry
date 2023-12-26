@@ -28,6 +28,10 @@ Gestion de almacenes (admin)
 
 ![1700250998070](https://github.com/Agustin15/ProyectoQuickCarry/assets/60082275/fb9d65bd-84e3-478b-a007-4111ebb6ad84)
 
+Lista de paquetes segun el almacen
+
+![1700251024783](https://github.com/Agustin15/ProyectoQuickCarry/assets/60082275/c9eef07d-2216-4fa7-93a4-f6a6e09873d3)
+
 
 Lista de pedidos para armar (funcionario de almacen de armado)
 
