@@ -6,6 +6,22 @@ Aplicacion web para solucionar los problemas de trayecto,armado y segumiento de 
 # Link
 https://cronoslogistic.000webhostapp.com/index.html
 
+usuario admin:
+
+user:agustinMiranda pass:54169129
+
+usuario funcionario crecom:
+
+user:lucasGonzalez pass:123
+
+usuario chofer:
+
+user:jorgeErrandonea pass:123
+
+usuario funcionario quickcarry:
+
+user:mariaDemichelis pass:123
+
 # Capturas
 
 HomePage
