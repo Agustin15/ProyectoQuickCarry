@@ -56,3 +56,5 @@ Armado de lotes (funcionario de almacen de deposito)
 ![1700250977523](https://github.com/Agustin15/ProyectoQuickCarry/assets/60082275/53a9cea8-9cda-4bff-a534-806c023ac92c)
 
 
+
+
