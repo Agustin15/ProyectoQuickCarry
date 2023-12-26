@@ -12,6 +12,5 @@ HomePage
 https://i.postimg.cc/vZf54Nbf/1700250561948.jpg
 
 Login
-https://i.postimg.cc/rpg0W6b0/1700250490676.jpg
-
+https://postimg.cc/LqY8KWm2
 
