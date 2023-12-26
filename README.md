@@ -1,5 +1,5 @@
-# ProyectoQuickCarry
-Creado por Sebastian Cancela, Agustina Franco, Agustin Miranda, Juan Manuel Pereyra,
+# CronosLogistic
+Creado por Sebastian Cancela, Agustina Franco, Agustin Miranda, Juan Manuel Pereyra.
 
 Aplicacion web para solucionar los problemas de trayecto,armado y segumiento de paquetes de una ficticia empresa de logistica.
 
